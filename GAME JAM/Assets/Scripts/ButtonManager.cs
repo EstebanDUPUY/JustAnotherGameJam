@@ -38,7 +38,10 @@ public class ButtonManager : MonoBehaviour
 
             if (!other.GetComponent<NoteMovement>().isValided)
             {
-                SignalText?.Invoke("Missed!");
+                if (tempoNote.type == DataNote.NoteType.BombNote)
+                    SignalText?.Invoke("SAFE!");
+                else
+                    SignalText?.Invoke("Missed!");
             }
         }
     }
@@ -47,8 +50,10 @@ public class ButtonManager : MonoBehaviour
     {
         if (canActivateNote && context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
-            if (tempoNote.type == 0)
+            if (tempoNote.type == DataNote.NoteType.SimpleNote)
                 ShortNoteActivate();
+            if (tempoNote.type == DataNote.NoteType.BombNote)
+                BombNoteActivate();
         }
     }
 
@@ -56,6 +61,13 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("Success!");
+        Destroy(tempoNoteObject);
+    }
+
+    private void BombNoteActivate()
+    {
+        tempoNote.isValided = true;
+        SignalText?.Invoke("BOOOM!");
         Destroy(tempoNoteObject);
     }
 
