@@ -3,18 +3,22 @@ using System.Collections;
 
 public class SpawnNote : MonoBehaviour
 {
-    public GameObject note;
-    void Start()
+
+
+    void OnEnable()
     {
-        StartCoroutine(SpawnNoteInRythm());
+        BossSpawnNote.spawnNote += OnSpawnNote;
     }
 
-    IEnumerator SpawnNoteInRythm()
+    void OnDisable()
     {
-        while (true)
-        {
-            Instantiate(note, this.transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(1f);
-        }
+        BossSpawnNote.spawnNote -= OnSpawnNote;
     }
+
+    private void OnSpawnNote()
+    {
+        Instantiate(Resources.Load<GameObject>("NoteSimple"), this.transform.position, Quaternion.identity);
+    }
+
+
 }
