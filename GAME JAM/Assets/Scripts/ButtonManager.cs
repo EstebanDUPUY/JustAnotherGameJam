@@ -1,7 +1,5 @@
-using Unity.Multiplayer.Center.Common.Analytics;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Interactions;
 using System;
 
 public class ButtonManager : MonoBehaviour
@@ -10,24 +8,47 @@ public class ButtonManager : MonoBehaviour
     private GameObject tempoNoteObject;
     private NoteMovement tempoNote;
 
-    private BoxCollider2D buttonCollider;
-
-    private Bounds b;
-
     public static event Action<string> SignalText;
 
-    void LateUpdate()
+    private InputAction noteAction;
+    private InputAction bonusAction;
+
+    [Header("Bonus Settings")]
+    public int streakToActivate = 10;
+    private int currentStreak = 0;
+    private bool bonusReady = false;
+    private bool bonusActive = false;
+    private float bonusTimer = 0f;
+    public float bonusDuration = 5f;
+
+    void Awake()
     {
-        buttonCollider = GetComponent<BoxCollider2D>();
-        Bounds b = buttonCollider.bounds;
+        // Create Note action (example bound to J key)
+        noteAction = new InputAction(type: InputActionType.Button, binding: "<Keyboard>/j");
+        noteAction.performed += OnNote;
+        noteAction.Enable();
+
+        // Create Bonus action bound to Space
+        bonusAction = new InputAction(type: InputActionType.Button, binding: "<Keyboard>/space");
+        bonusAction.performed += OnBonus;
+        bonusAction.Enable();
     }
+
+    private void OnDestroy()
+    {
+        noteAction.performed -= OnNote;
+        bonusAction.performed -= OnBonus;
+        noteAction.Disable();
+        bonusAction.Disable();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Note"))
         {
             canActivateNote = true;
             tempoNoteObject = other.gameObject;
-            tempoNote = other.gameObject.GetComponent<NoteMovement>();
+            tempoNote = tempoNoteObject.GetComponent<NoteMovement>();
         }
     }
 
@@ -35,43 +56,66 @@ public class ButtonManager : MonoBehaviour
     {
         if (other.CompareTag("Note"))
         {
-
             if (!other.GetComponent<NoteMovement>().isValided)
             {
                 SignalText?.Invoke("Missed!");
+                ResetStreak();
+            }
+            canActivateNote = false;
+        }
+    }
+
+    private void OnNote(InputAction.CallbackContext ctx)
+    {
+        if (canActivateNote && tempoNote != null && tempoNote.type == 0)
+        {
+            tempoNote.isValided = true;
+            SignalText?.Invoke("Success!");
+            Destroy(tempoNoteObject);
+
+            // Handle streak
+            currentStreak++;
+            if (currentStreak >= streakToActivate)
+            {
+                bonusReady = true;
+                SignalText?.Invoke("Bonus Ready!");
             }
         }
     }
 
-    public void OnNote(InputAction.CallbackContext context)
+    private void OnBonus(InputAction.CallbackContext ctx)
     {
-        if (canActivateNote && context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
+        if (bonusReady && !bonusActive)
         {
-            if (tempoNote.type == 0)
-                ShortNoteActivate();
+            bonusActive = true;
+            bonusReady = false;
+            currentStreak = 0;
+            bonusTimer = bonusDuration;
+            SignalText?.Invoke("Bonus Activated!");
         }
     }
 
-    private void ShortNoteActivate()
+    void Update()
     {
-        tempoNote.isValided = true;
-        SignalText?.Invoke("Success!");
-        Destroy(tempoNoteObject);
-    }
-
-    private void LongNoteActivate(InputAction.CallbackContext context)
-    {
-        /*if (context.interaction is HoldInteraction)
+        if (bonusActive)
         {
-            tempoNote.longNoteEnter = true;
-            tempoNoteObject.transform.parent.Find("NoteLongBody").GetComponent<SpriteRenderer>().color = Color.black;
+            bonusTimer -= Time.deltaTime;
+            if (bonusTimer <= 0f)
+            {
+                bonusActive = false;
+                SignalText?.Invoke("Bonus Ended.");
+            }
         }
-
-        if (context.canceled)
-        {
-            if (tempoNote.longNoteEnter)
-                tempoNote.isLongValided = true;
-            Destroy(tempoNoteObject.transform.parent.gameObject);
-        }*/
     }
+
+    private void ResetStreak()
+    {
+        currentStreak = 0;
+        bonusReady = false;
+    }
+
+    // Properties for the BonusBar
+    public int CurrentStreak => currentStreak;
+    public int StreakToActivate => streakToActivate;
+    public bool BonusReady => bonusReady;
 }
