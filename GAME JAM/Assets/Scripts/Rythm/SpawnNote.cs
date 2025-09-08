@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SpawnNote : MonoBehaviour
 {
-
+    [SerializeField] private int id;
 
     void OnEnable()
     {
@@ -15,9 +15,10 @@ public class SpawnNote : MonoBehaviour
         BossSpawnNote.spawnNote -= OnSpawnNote;
     }
 
-    private void OnSpawnNote()
+    private void OnSpawnNote(int _id, GameObject note)
     {
-        Instantiate(Resources.Load<GameObject>("NoteSimple"), this.transform.position, Quaternion.identity);
+        if (_id == id)
+            Instantiate(note, this.transform.position, Quaternion.identity);
     }
 
 

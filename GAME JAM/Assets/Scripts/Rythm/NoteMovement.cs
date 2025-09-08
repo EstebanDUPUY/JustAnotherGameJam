@@ -6,13 +6,13 @@ public class NoteMovement : MonoBehaviour
     public float beatTempo;
     public bool hasStarted = true;
 
-    public int type;
+    public DataNote.NoteType type;
     public bool isValided = false;
-    public bool isLongValided = false;
-    public bool longNoteEnter = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Destroy(gameObject, 12f);
         beatTempo = beatTempo / 60f;
     }
 
