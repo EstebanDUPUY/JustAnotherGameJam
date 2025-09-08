@@ -32,26 +32,31 @@ public class ButtonManager : MonoBehaviour
         if (canActivateNote)
         {
             if (tempoNote.type == 0)
-            {
-                tempoNote.isValided = true;
-                Destroy(tempoNoteObject);
-            }
+                ShortNoteActivate();
             if (tempoNote.type == 1)
-            {
-                if (context.interaction is HoldInteraction)
-                {
-                    tempoNote.longNoteEnter = true;
-                    tempoNoteObject.GetComponentInParent<SpriteRenderer>().color = Color.black;
-                }
-
-                if (context.canceled)
-                    {
-                    //tempoNoteObject.GetComponent<SpriteRenderer>().color = Color.white;
-                    if (tempoNote.longNoteEnter)
-                        tempoNote.isValided = true;
-                    Destroy(tempoNoteObject);
-                    }
-            }
+                LongNoteActivate(context);
         }
+    }
+
+    private void ShortNoteActivate()
+    {
+        tempoNote.isValided = true;
+        Destroy(tempoNoteObject);
+    }
+
+    private void LongNoteActivate(InputAction.CallbackContext context)
+    {
+        /*if (context.interaction is HoldInteraction)
+        {
+            tempoNote.longNoteEnter = true;
+            tempoNoteObject.transform.parent.Find("NoteLongBody").GetComponent<SpriteRenderer>().color = Color.black;
+        }
+
+        if (context.canceled)
+        {
+            if (tempoNote.longNoteEnter)
+                tempoNote.isLongValided = true;
+            Destroy(tempoNoteObject.transform.parent.gameObject);
+        }*/
     }
 }

@@ -8,6 +8,7 @@ public class NoteMovement : MonoBehaviour
 
     public int type;
     public bool isValided = false;
+    public bool isLongValided = false;
     public bool longNoteEnter = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,8 +17,8 @@ public class NoteMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.position -= new Vector3(beatTempo * Time.deltaTime, 0f, 0f);
+        transform.position -= new Vector3(beatTempo * Time.fixedDeltaTime, 0f, 0f);
     }
 }
