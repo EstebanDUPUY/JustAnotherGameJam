@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 using System;
 using System.Data.Common;
+using Unity.VisualScripting;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class ButtonManager : MonoBehaviour
     {
         if (other.CompareTag("Note"))
         {
-            canActivateNote = true;
+            //canActivateNote = true;
             tempoNoteObject = other.gameObject;
             tempoNote = other.gameObject.GetComponent<NoteMovement>();
         }
@@ -61,12 +62,22 @@ public class ButtonManager : MonoBehaviour
     public void OnNote(InputAction.CallbackContext context)
     {
         Debug.Log("Je suis ici dans le OnNote = " + id);
-        if ((canActivateNote || missValue) && context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
+        if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
-            if (tempoNote.type == DataNote.NoteType.SimpleNote)
-                ShortNoteActivate();
-            if (tempoNote.type == DataNote.NoteType.BombNote)
-                BombNoteActivate();
+            if (tempoNoteObject == null)
+            {
+                SignalText?.Invoke("Miss!");
+                return;
+            }
+
+            Debug.Log(tempoNoteObject);
+            if (GetComponent<BoxCollider2D>().OverlapPoint(tempoNoteObject.transform.position))
+            {
+                if (tempoNote.type == DataNote.NoteType.SimpleNote)
+                    ShortNoteActivate();
+                if (tempoNote.type == DataNote.NoteType.BombNote)
+                    BombNoteActivate();
+            }
         }
     }
 
