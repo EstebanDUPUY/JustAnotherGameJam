@@ -11,16 +11,20 @@ public class ButtonManager : MonoBehaviour
     private NoteMovement tempoNote;
 
     private BoxCollider2D buttonCollider;
-
     private Bounds b;
 
     public static event Action<string> SignalText;
+
+    // Events pour le StreakSystem
+    public static event Action OnNoteSuccess;
+    public static event Action OnNoteFail;
 
     void LateUpdate()
     {
         buttonCollider = GetComponent<BoxCollider2D>();
         Bounds b = buttonCollider.bounds;
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Note"))
@@ -35,13 +39,18 @@ public class ButtonManager : MonoBehaviour
     {
         if (other.CompareTag("Note"))
         {
-
             if (!other.GetComponent<NoteMovement>().isValided)
             {
                 if (tempoNote.type == DataNote.NoteType.BombNote)
+                {
                     SignalText?.Invoke("SAFE!");
+                    OnNoteFail?.Invoke();
+                }
                 else
+                {
                     SignalText?.Invoke("Missed!");
+                    OnNoteFail?.Invoke();
+                }
             }
         }
     }
@@ -52,7 +61,7 @@ public class ButtonManager : MonoBehaviour
         {
             if (tempoNote.type == DataNote.NoteType.SimpleNote)
                 ShortNoteActivate();
-            if (tempoNote.type == DataNote.NoteType.BombNote)
+            else if (tempoNote.type == DataNote.NoteType.BombNote)
                 BombNoteActivate();
         }
     }
@@ -61,6 +70,7 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("Success!");
+        OnNoteSuccess?.Invoke();
         Destroy(tempoNoteObject);
     }
 
@@ -68,6 +78,7 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("BOOOM!");
+        OnNoteFail?.Invoke();
         Destroy(tempoNoteObject);
     }
 
