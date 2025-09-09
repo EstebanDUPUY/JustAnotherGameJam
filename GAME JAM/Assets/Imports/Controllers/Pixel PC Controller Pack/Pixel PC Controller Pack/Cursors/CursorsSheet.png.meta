@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: a0cb2959f3903b04e91b9db1953cb280
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4552939606346069819
+    second: CursorsSheet_0
+  - first:
+      213: 5895589310043316167
+    second: CursorsSheet_1
+  - first:
+      213: -8967795530544530543
+    second: CursorsSheet_2
+  - first:
+      213: 7742706128511437186
+    second: CursorsSheet_3
+  - first:
+      213: -5558517814894564889
+    second: CursorsSheet_4
+  - first:
+      213: 2664281206619600324
+    second: CursorsSheet_5
+  - first:
+      213: -3145819221476124561
+    second: CursorsSheet_6
+  - first:
+      213: 8488253414233545024
+    second: CursorsSheet_7
+  - first:
+      213: -2386025842345013787
+    second: CursorsSheet_8
+  - first:
+      213: -3906264846567270912
+    second: CursorsSheet_9
+  - first:
+      213: 857450805422295453
+    second: CursorsSheet_10
+  - first:
+      213: -7241665572513622261
+    second: CursorsSheet_11
+  - first:
+      213: 5430503631634393369
+    second: CursorsSheet_12
+  - first:
+      213: 9188839272753526815
+    second: CursorsSheet_13
+  - first:
+      213: 8759579238833880863
+    second: CursorsSheet_14
+  - first:
+      213: -6852905254098443974
+    second: CursorsSheet_15
+  - first:
+      213: 506843699630203199
+    second: CursorsSheet_16
+  - first:
+      213: -3493985384269895806
+    second: CursorsSheet_17
+  - first:
+      213: 242985680757025656
+    second: CursorsSheet_18
+  - first:
+      213: 8542470715866513938
+    second: CursorsSheet_19
+  - first:
+      213: 28856143512486660
+    second: CursorsSheet_20
+  - first:
+      213: -4129293628885095242
+    second: CursorsSheet_21
+  - first:
+      213: -21428050847634953
+    second: CursorsSheet_22
+  - first:
+      213: 3133608953444186152
+    second: CursorsSheet_23
+  - first:
+      213: -3121919351814165655
+    second: CursorsSheet_24
+  - first:
+      213: -107135350393067981
+    second: CursorsSheet_25
+  - first:
+      213: -511574965708128149
+    second: CursorsSheet_26
+  - first:
+      213: -5614983621513502804
+    second: CursorsSheet_27
+  - first:
+      213: -3859225986611063306
+    second: CursorsSheet_28
+  - first:
+      213: 4194258702907363622
+    second: CursorsSheet_29
+  - first:
+      213: -4315860446690746697
+    second: CursorsSheet_30
+  - first:
+      213: 5314460377544676713
+    second: CursorsSheet_31
+  - first:
+      213: 7992624992910032388
+    second: CursorsSheet_32
+  - first:
+      213: 3237862141741216052
+    second: CursorsSheet_33
+  - first:
+      213: -5856478491949640028
+    second: CursorsSheet_34
+  - first:
+      213: -6907429491327551267
+    second: CursorsSheet_35
+  - first:
+      213: 9041986443615807677
+    second: CursorsSheet_36
+  - first:
+      213: -8493488180422139895
+    second: CursorsSheet_37
+  - first:
+      213: -7781941387378015011
+    second: CursorsSheet_38
+  - first:
+      213: -8584137976573153705
+    second: CursorsSheet_39
+  - first:
+      213: -1142299909712778817
+    second: CursorsSheet_40
+  - first:
+      213: -1664198461699086681
+    second: CursorsSheet_41
+  - first:
+      213: -6261455518251699870
+    second: CursorsSheet_42
+  - first:
+      213: -7584953765337760588
+    second: CursorsSheet_43
+  - first:
+      213: 1613236969906226010
+    second: CursorsSheet_44
+  - first:
+      213: -2150759434795268326
+    second: CursorsSheet_45
+  - first:
+      213: 7461170987941975693
+    second: CursorsSheet_46
+  - first:
+      213: 7414812759108043966
+    second: CursorsSheet_47
+  - first:
+      213: 2970800880744697491
+    second: CursorsSheet_48
+  - first:
+      213: -2632249506719088026
+    second: CursorsSheet_49
+  - first:
+      213: 4835657385066903499
+    second: CursorsSheet_50
+  - first:
+      213: 4480910882413615076
+    second: CursorsSheet_51
+  - first:
+      213: -6521724806282247981
+    second: CursorsSheet_52
+  - first:
+      213: 475496311021563848
+    second: CursorsSheet_53
+  - first:
+      213: 8394041576487001291
+    second: CursorsSheet_54
+  - first:
+      213: 7143374354720001926
+    second: CursorsSheet_55
+  - first:
+      213: 2374540973544689622
+    second: CursorsSheet_56
+  - first:
+      213: 8875465496612205283
+    second: CursorsSheet_57
+  - first:
+      213: 2672042049210835846
+    second: CursorsSheet_58
+  - first:
+      213: 1232352524718506952
+    second: CursorsSheet_59
+  - first:
+      213: 1385803215590797188
+    second: CursorsSheet_60
+  - first:
+      213: -1999970474975269922
+    second: CursorsSheet_61
+  - first:
+      213: 2650196099951479527
+    second: CursorsSheet_62
+  - first:
+      213: 7526585276011012357
+    second: CursorsSheet_63
+  - first:
+      213: -7821336223264549263
+    second: CursorsSheet_64
+  - first:
+      213: 5652975213045176532
+    second: CursorsSheet_65
+  - first:
+      213: 594420648832751452
+    second: CursorsSheet_66
+  - first:
+      213: 1933595343915567087
+    second: CursorsSheet_67
+  - first:
+      213: 6362791260819083139
+    second: CursorsSheet_68
+  - first:
+      213: -8016772963410674735
+    second: CursorsSheet_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CursorsSheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 65
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c88fefec85b0d0c0800000000000000
+      internalID: -4552939606346069819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 68
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfd8b6cd3751d150800000000000000
+      internalID: 5895589310043316167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bbe877a7dfb8380800000000000000
+      internalID: -8967795530544530543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 65
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2890a26833e937b60800000000000000
+      internalID: 7742706128511437186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e967856f7d2cd2b0800000000000000
+      internalID: -5558517814894564889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c57f4634ad69f420800000000000000
+      internalID: 2664281206619600324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 66
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68d158d51ec754d0800000000000000
+      internalID: -3145819221476124561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04913eee1855cc570800000000000000
+      internalID: 8488253414233545024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed8f1a532223eed0800000000000000
+      internalID: -2386025842345013787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00613cd71d82ac9c0800000000000000
+      internalID: -3906264846567270912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_10
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99819de6f646eb00800000000000000
+      internalID: 857450805422295453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b075620a78f608b90800000000000000
+      internalID: -7241665572513622261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919690be7460d5b40800000000000000
+      internalID: 5430503631634393369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 66
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18f1ae42a0558f70800000000000000
+      internalID: 9188839272753526815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 66
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f749058e6409970800000000000000
+      internalID: 8759579238833880863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 66
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31ed0acaf695e0a0800000000000000
+      internalID: -6852905254098443974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 66
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f316a11d8aba80700800000000000000
+      internalID: 506843699630203199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287af201eced28fc0800000000000000
+      internalID: -3493985384269895806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 49
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b670370324f5300800000000000000
+      internalID: 242985680757025656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212866b2bd3fc8670800000000000000
+      internalID: 8542470715866513938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 49
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40346a77284866000800000000000000
+      internalID: 28856143512486660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 57
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc250d825dc1b6c0800000000000000
+      internalID: -4129293628885095242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 47
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f96ff02d4fd3bff0800000000000000
+      internalID: -21428050847634953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82836079db0dc7b20800000000000000
+      internalID: 3133608953444186152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 47
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96be2b1e3e6bca4d0800000000000000
+      internalID: -3121919351814165655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 53
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3362fe867f0638ef0800000000000000
+      internalID: -107135350393067981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b600cf4774586e8f0800000000000000
+      internalID: -511574965708128149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_27
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1d0c45229312b0800000000000000
+      internalID: -5614983621513502804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 47
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f557188966417ac0800000000000000
+      internalID: -3859225986611063306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 54
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62152e27110053a30800000000000000
+      internalID: 4194258702907363622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 50
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed6d64acbfa14c0800000000000000
+      internalID: -4315860446690746697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 50
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96550706e81c0c940800000000000000
+      internalID: 5314460377544676713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_32
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 54
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ebf4595128bee60800000000000000
+      internalID: 7992624992910032388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 56
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431bb2686723fec20800000000000000
+      internalID: 3237862141741216052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 51
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a650ac27db99bea0800000000000000
+      internalID: -5856478491949640028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 51
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd83d5a8971e320a0800000000000000
+      internalID: -6907429491327551267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_36
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 48
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db82e9393c69b7d70800000000000000
+      internalID: 9041986443615807677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 51
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900a5f51081112a80800000000000000
+      internalID: -8493488180422139895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_38
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 49
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd44c66e98df00490800000000000000
+      internalID: -7781941387378015011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_39
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 49
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eaa63bdf30fd880800000000000000
+      internalID: -8584137976573153705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_40
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 49
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9eb96c84cb520f0800000000000000
+      internalID: -1142299909712778817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6acaef05497e8e0800000000000000
+      internalID: -1664198461699086681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 36
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261b2b97167da19a0800000000000000
+      internalID: -6261455518251699870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcf74bbcb4dcb690800000000000000
+      internalID: -7584953765337760588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_44
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53c9c11a7e536610800000000000000
+      internalID: 1613236969906226010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1745b370b7f622e0800000000000000
+      internalID: -2150759434795268326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 34
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d865bb88b776b8760800000000000000
+      internalID: 7461170987941975693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb44ba64be4b6e660800000000000000
+      internalID: 7414812759108043966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_48
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e843b39a76a3920800000000000000
+      internalID: 2970800880744697491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 31
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662cfc7150f587bd0800000000000000
+      internalID: -2632249506719088026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7386475c4bb1340800000000000000
+      internalID: 4835657385066903499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 37
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e71278e4b46f2e30800000000000000
+      internalID: 4480910882413615076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 32
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d081be97dd2e75a0800000000000000
+      internalID: -6521724806282247981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_53
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 37
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfe276206d499600800000000000000
+      internalID: 475496311021563848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_54
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc1e5c1750ad7470800000000000000
+      internalID: 8394041576487001291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_55
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 37
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f88bed02d522360800000000000000
+      internalID: 7143374354720001926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_56
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 36
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfcdb04f6014f020800000000000000
+      internalID: 2374540973544689622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_57
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 37
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e27ecd48dcfb2b70800000000000000
+      internalID: 8875465496612205283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6836e103610051520800000000000000
+      internalID: 2672042049210835846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_59
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 37
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c307e987123a1110800000000000000
+      internalID: 1232352524718506952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_60
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 33
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f22e9aeac5b3310800000000000000
+      internalID: 1385803215590797188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_61
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 16
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb64d5037dae34e0800000000000000
+      internalID: -1999970474975269922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 16
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eacbb2cf4367c420800000000000000
+      internalID: 2650196099951479527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_63
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 16
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50162545e6dc37860800000000000000
+      internalID: 7526585276011012357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_64
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 17
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176db67e428057390800000000000000
+      internalID: -7821336223264549263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d855a96107637e40800000000000000
+      internalID: 5652975213045176532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_66
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 16
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5755d44e6ecf3800800000000000000
+      internalID: 594420648832751452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_67
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 16
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7cf6d78b285da10800000000000000
+      internalID: 1933595343915567087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_68
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 16
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fc411b0fc2d4850800000000000000
+      internalID: 6362791260819083139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CursorsSheet_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 16
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db73f6e673beb090800000000000000
+      internalID: -8016772963410674735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CursorsSheet_0: -4552939606346069819
+      CursorsSheet_1: 5895589310043316167
+      CursorsSheet_10: 857450805422295453
+      CursorsSheet_11: -7241665572513622261
+      CursorsSheet_12: 5430503631634393369
+      CursorsSheet_13: 9188839272753526815
+      CursorsSheet_14: 8759579238833880863
+      CursorsSheet_15: -6852905254098443974
+      CursorsSheet_16: 506843699630203199
+      CursorsSheet_17: -3493985384269895806
+      CursorsSheet_18: 242985680757025656
+      CursorsSheet_19: 8542470715866513938
+      CursorsSheet_2: -8967795530544530543
+      CursorsSheet_20: 28856143512486660
+      CursorsSheet_21: -4129293628885095242
+      CursorsSheet_22: -21428050847634953
+      CursorsSheet_23: 3133608953444186152
+      CursorsSheet_24: -3121919351814165655
+      CursorsSheet_25: -107135350393067981
+      CursorsSheet_26: -511574965708128149
+      CursorsSheet_27: -5614983621513502804
+      CursorsSheet_28: -3859225986611063306
+      CursorsSheet_29: 4194258702907363622
+      CursorsSheet_3: 7742706128511437186
+      CursorsSheet_30: -4315860446690746697
+      CursorsSheet_31: 5314460377544676713
+      CursorsSheet_32: 7992624992910032388
+      CursorsSheet_33: 3237862141741216052
+      CursorsSheet_34: -5856478491949640028
+      CursorsSheet_35: -6907429491327551267
+      CursorsSheet_36: 9041986443615807677
+      CursorsSheet_37: -8493488180422139895
+      CursorsSheet_38: -7781941387378015011
+      CursorsSheet_39: -8584137976573153705
+      CursorsSheet_4: -5558517814894564889
+      CursorsSheet_40: -1142299909712778817
+      CursorsSheet_41: -1664198461699086681
+      CursorsSheet_42: -6261455518251699870
+      CursorsSheet_43: -7584953765337760588
+      CursorsSheet_44: 1613236969906226010
+      CursorsSheet_45: -2150759434795268326
+      CursorsSheet_46: 7461170987941975693
+      CursorsSheet_47: 7414812759108043966
+      CursorsSheet_48: 2970800880744697491
+      CursorsSheet_49: -2632249506719088026
+      CursorsSheet_5: 2664281206619600324
+      CursorsSheet_50: 4835657385066903499
+      CursorsSheet_51: 4480910882413615076
+      CursorsSheet_52: -6521724806282247981
+      CursorsSheet_53: 475496311021563848
+      CursorsSheet_54: 8394041576487001291
+      CursorsSheet_55: 7143374354720001926
+      CursorsSheet_56: 2374540973544689622
+      CursorsSheet_57: 8875465496612205283
+      CursorsSheet_58: 2672042049210835846
+      CursorsSheet_59: 1232352524718506952
+      CursorsSheet_6: -3145819221476124561
+      CursorsSheet_60: 1385803215590797188
+      CursorsSheet_61: -1999970474975269922
+      CursorsSheet_62: 2650196099951479527
+      CursorsSheet_63: 7526585276011012357
+      CursorsSheet_64: -7821336223264549263
+      CursorsSheet_65: 5652975213045176532
+      CursorsSheet_66: 594420648832751452
+      CursorsSheet_67: 1933595343915567087
+      CursorsSheet_68: 6362791260819083139
+      CursorsSheet_69: -8016772963410674735
+      CursorsSheet_7: 8488253414233545024
+      CursorsSheet_8: -2386025842345013787
+      CursorsSheet_9: -3906264846567270912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
