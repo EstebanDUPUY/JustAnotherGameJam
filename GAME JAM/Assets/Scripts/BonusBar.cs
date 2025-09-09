@@ -4,14 +4,14 @@ using UnityEngine.UI;
 public class BonusBar : MonoBehaviour
 {
     private Image barImage;
-    private ButtonManager buttonManager;
 
     void Awake()
     {
-        // Create Canvas if none exists
+        // Cherche un Canvas existant
         Canvas canvas = FindObjectOfType<Canvas>();
         if (canvas == null)
         {
+            // Crée un Canvas si aucun n’existe
             GameObject canvasGO = new GameObject("Canvas");
             canvas = canvasGO.AddComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
@@ -19,38 +19,39 @@ public class BonusBar : MonoBehaviour
             canvasGO.AddComponent<GraphicRaycaster>();
         }
 
-        // Create the bar
+        // Crée la barre
         GameObject barGO = new GameObject("BonusBar");
         barGO.transform.SetParent(canvas.transform);
 
         barImage = barGO.AddComponent<Image>();
-        barImage.color = Color.cyan;
+        barImage.color = Color.cyan;           // couleur par défaut
         barImage.type = Image.Type.Filled;
         barImage.fillMethod = Image.FillMethod.Horizontal;
         barImage.fillAmount = 0f;
 
-        // Set size and position
+        // Position et taille
         RectTransform rt = barGO.GetComponent<RectTransform>();
         rt.anchorMin = new Vector2(0.1f, 0.9f);
         rt.anchorMax = new Vector2(0.4f, 0.95f);
         rt.offsetMin = Vector2.zero;
         rt.offsetMax = Vector2.zero;
 
-        // Find ButtonManager automatically
-        buttonManager = FindObjectOfType<ButtonManager>();
-        if (buttonManager == null)
-            Debug.LogWarning("ButtonManager not found. Bonus bar won't work.");
+        // S’abonner aux events de StreakSystem
+        StreakSystem.OnStreakProgress += UpdateBar;
     }
 
-    void Update()
+    void OnDestroy()
     {
-        if (buttonManager != null)
-        {
-            float progress = Mathf.Clamp01((float)buttonManager.CurrentStreak / buttonManager.StreakToActivate);
-            barImage.fillAmount = progress;
+        StreakSystem.OnStreakProgress -= UpdateBar;
+    }
 
-            // Change color if bonus ready
-            barImage.color = buttonManager.BonusReady ? Color.yellow : Color.cyan;
+    private void UpdateBar(float progress)
+    {
+        if (barImage != null)
+        {
+            barImage.fillAmount = progress;
+            // change la couleur si le bonus est prêt
+            barImage.color = progress >= 1f ? Color.yellow : Color.cyan;
         }
     }
 }

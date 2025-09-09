@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2618744414010868555}
   - component: {fileID: 4415621762837083638}
   m_Layer: 0
-  m_Name: NoteSimple
+  m_Name: NoteTrick
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.2532153, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beatTempo: 320
   hasStarted: 0
-  type: 0
+  type: 3
   isValided: 0
 --- !u!61 &4415621762837083638
 BoxCollider2D:
