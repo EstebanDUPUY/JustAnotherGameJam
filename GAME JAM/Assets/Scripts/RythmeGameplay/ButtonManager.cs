@@ -15,6 +15,8 @@ public class ButtonManager : MonoBehaviour
     private Bounds b;
 
     public static event Action<string> SignalText;
+    public static event Action OnNoteSuccess;
+    public static event Action OnNoteFail;
 
     private void Start()
     {
@@ -46,7 +48,10 @@ public class ButtonManager : MonoBehaviour
                 if (tempoNote.type == DataNote.NoteType.BombNote)
                     SignalText?.Invoke("SAFE!");
                 else
+                {
                     SignalText?.Invoke("Missed!");
+                    OnNoteFail?.Invoke();
+                }
             }
             canActivateNote = false;
         }
@@ -67,6 +72,7 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("Success!");
+        OnNoteSuccess?.Invoke();
         Destroy(tempoNoteObject);
     }
 
@@ -74,6 +80,7 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("BOOOM!");
+        OnNoteFail?.Invoke();
         Destroy(tempoNoteObject);
     }
 

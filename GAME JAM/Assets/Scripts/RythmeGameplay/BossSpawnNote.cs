@@ -14,7 +14,6 @@ public class BossSpawnNote : MonoBehaviour
     void Start()
     {
         StartCoroutine(SpawnNoteInRythm());
-        Resources.Load<GameObject>("NoteSimple");
     }
 
     void OnEnable()
@@ -41,13 +40,13 @@ public class BossSpawnNote : MonoBehaviour
         switch (random)
         {
             case 0:
-                tempo = Resources.Load<GameObject>("NoteSimple");
+                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
                 break;
             case 1:
-                tempo = Resources.Load<GameObject>("NoteBomb");
+                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteBomb");
                 break;
             case 2:
-                tempo = Resources.Load<GameObject>("NoteTrick");
+                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteTrick");
                 break;
         }
         return tempo;
