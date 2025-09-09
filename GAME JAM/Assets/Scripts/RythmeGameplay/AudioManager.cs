@@ -29,14 +29,14 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        //bpm = UniBpmAnalyzer.AnalyzeBpm(clip);
+        bpm = UniBpmAnalyzer.AnalyzeBpm(music.clip);
 
         spectrum = new float[sampleSize];
 
+        FindBPM?.Invoke(bpm);
+        Debug.Log(bpm);
 
         //music.Play(0);
-
-        //FindBPMRunTime();
     }
 
     void OnEnable()
@@ -53,79 +53,5 @@ public class AudioManager : MonoBehaviour
     {
         Debug.Log("Here Song");
         music.Play(0);
-    }
-
-    void Update()
-    {
-        music.GetSpectrumData(spectrum, 0, FFTWindow.BlackmanHarris);
-        float currentEnergy = 0f;
-
-        // Somme de l'énergie des basses fréquences (fréquences percussives)
-        for (int i = 0; i < spectrum.Length / 8; i++)
-            currentEnergy += spectrum[i];
-
-        // Détection d'un onset
-        if (currentEnergy > lastEnergy * threshold)
-        {
-            float time = Time.time;
-            float interval = time - lastOnsetTime;
-
-            if (interval > 0.05f) // filtre pour éviter le double comptage
-            {
-                float bpm = 60f / interval;
-                bpmHistory.Add(bpm);
-
-                if (bpmHistory.Count > smoothCount)
-                    bpmHistory.RemoveAt(0);
-
-                float avgBpm = 0f;
-                foreach (float b in bpmHistory) avgBpm += b;
-                avgBpm /= bpmHistory.Count;
-
-                Debug.Log("BPM instantané : " + avgBpm.ToString("F1"));
-                FindBPM?.Invoke(avgBpm);
-            }
-
-            lastOnsetTime = time;
-        }
-
-        lastEnergy = currentEnergy;
-    }
-
-    private void FindBPMRunTime()
-    {
-        music.GetSpectrumData(spectrum, 0, FFTWindow.BlackmanHarris);
-        float currentEnergy = 0f;
-
-        // Somme de l'énergie des basses fréquences (fréquences percussives)
-        for (int i = 0; i < spectrum.Length / 8; i++)
-            currentEnergy += spectrum[i];
-
-        // Détection d'un onset
-        if (currentEnergy > lastEnergy * threshold)
-        {
-            float time = Time.time;
-            float interval = time - lastOnsetTime;
-
-            if (interval > 0.05f) // filtre pour éviter le double comptage
-            {
-                float bpm = 60f / interval;
-                bpmHistory.Add(bpm);
-
-                if (bpmHistory.Count > smoothCount)
-                    bpmHistory.RemoveAt(0);
-
-                float avgBpm = 0f;
-                foreach (float b in bpmHistory) avgBpm += b;
-                avgBpm /= bpmHistory.Count;
-
-                Debug.Log("BPM instantané : " + avgBpm.ToString("F1"));
-                FindBPM?.Invoke(avgBpm);
-            }
-
-            lastOnsetTime = time;
-        }
-
-        lastEnergy = currentEnergy;
     }
 }

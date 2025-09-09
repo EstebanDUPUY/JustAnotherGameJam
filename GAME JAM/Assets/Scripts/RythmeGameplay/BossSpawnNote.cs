@@ -68,9 +68,7 @@ public class BossSpawnNote : MonoBehaviour
         while (true)
         {
             spawnNote?.Invoke(UnityEngine.Random.Range(0, 2), ChooseNote());
-            Debug.Log("I'm here");
             yield return new WaitForSeconds(60f / bpm);
-            Debug.Log("I'm here After");
             
         }
     }
