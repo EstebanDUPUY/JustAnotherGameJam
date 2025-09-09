@@ -1276,7 +1276,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 067c14fd741be7447888860da9d5d816, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5b86636883a7e0d4dbc5ff994396a440, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1376,6 +1376,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music: {fileID: 2087436478}
   bpm: 80
+  sampleSize: 1024
+  threshold: 1.5
+  smoothCount: 5
 --- !u!4 &2087436480
 Transform:
   m_ObjectHideFlags: 0

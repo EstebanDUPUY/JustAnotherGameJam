@@ -18,8 +18,8 @@ public class NoteMovement : MonoBehaviour
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
-        Destroy(gameObject, 12f);
-        beatTempo = beatTempo / 60f;
+        
+        beatTempo /= 60f;
 
         /*if (type == DataNote.NoteType.TrickNote)
         {
@@ -27,11 +27,30 @@ public class NoteMovement : MonoBehaviour
         }*/
     }
 
-    // Update is called once per frame
+    void OnEnable()
+    {
+        //AudioManager.FindBPM += ChangeBPMOnRunTime;
+    }
+
+    void Onsable()
+    {
+        //AudioManager.FindBPM -= ChangeBPMOnRunTime;
+
+    }
+
+    void Update()
+    {
+
+    }
     void FixedUpdate()
     {
-        transform.position -= new Vector3(beatTempo * Time.fixedDeltaTime, 0f, 0f);
+        transform.position -= new Vector3(10 * Time.fixedDeltaTime, 0f, 0f);
     }
+
+    /*private void ChangeBPMOnRunTime(float _bpm)
+    {
+        beatTempo = _bpm / 60f;
+    }*/
 
     /*IEnumerator SwitchLane()
     {

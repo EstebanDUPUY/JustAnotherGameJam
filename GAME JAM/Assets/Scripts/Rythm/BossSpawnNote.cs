@@ -7,13 +7,31 @@ public class BossSpawnNote : MonoBehaviour
 {
 
     public static event Action<int, GameObject> spawnNote;
-    private float timeSpawn = 1f;
+    private float timeSpawn = 2f;
+
+    private float bpm;
 
     void Start()
     {
         StartCoroutine(SpawnNoteInRythm());
         Resources.Load<GameObject>("NoteSimple");
     }
+
+    void OnEnable()
+    {
+        AudioManager.FindBPM += ChangeBPMOnRunTime;
+    }
+
+    void OnDisable()
+    {
+        AudioManager.FindBPM -= ChangeBPMOnRunTime;
+    }
+
+    private void ChangeBPMOnRunTime(float _bpm)
+    {
+        bpm = _bpm;
+    }
+
 
     private GameObject ChooseNote()
     {
@@ -40,7 +58,7 @@ public class BossSpawnNote : MonoBehaviour
         while (true)
         {
             spawnNote?.Invoke(UnityEngine.Random.Range(0,2), ChooseNote());
-            yield return new WaitForSeconds(timeSpawn);
+            yield return new WaitForSeconds(bpm / 60);
         }
     }
 

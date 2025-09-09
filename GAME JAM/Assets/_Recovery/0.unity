@@ -1375,6 +1375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 2087436478}
+  clip: {fileID: 8300000, guid: 5b86636883a7e0d4dbc5ff994396a440, type: 3}
   bpm: 80
 --- !u!4 &2087436480
 Transform:
