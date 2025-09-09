@@ -9,12 +9,15 @@ public class BossSpawnNote : MonoBehaviour
     public static event Action<int, GameObject> spawnNote;
     private float timeSpawn = 2f;
 
-    private float bpm;
+    private float bpm = 60f;
+
+    private bool ready = true;
 
     void Start()
     {
+        //StartCoroutine(WaitForReady());
         StartCoroutine(SpawnNoteInRythm());
-        Resources.Load<GameObject>("NoteSimple");
+        Debug.Log("Here");
     }
 
     void OnEnable()
@@ -41,24 +44,34 @@ public class BossSpawnNote : MonoBehaviour
         switch (random)
         {
             case 0:
-                tempo = Resources.Load<GameObject>("NoteSimple");
+                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
                 break;
             case 1:
-                tempo = Resources.Load<GameObject>("NoteBomb");
+                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteBomb");
                 break;
             case 2:
-                tempo = Resources.Load<GameObject>("NoteTrick");
+                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteTrick");
                 break;
         }
         return tempo;
+    }
+
+    IEnumerator WaitForReady()
+    {
+        yield return new WaitForSeconds(2f);
+        ready = true;
+        StartCoroutine(SpawnNoteInRythm());
     }
     
     IEnumerator SpawnNoteInRythm()
     {
         while (true)
         {
-            spawnNote?.Invoke(UnityEngine.Random.Range(0,2), ChooseNote());
-            yield return new WaitForSeconds(bpm / 60);
+            spawnNote?.Invoke(UnityEngine.Random.Range(0, 2), ChooseNote());
+            Debug.Log("I'm here");
+            yield return new WaitForSeconds(60f / bpm);
+            Debug.Log("I'm here After");
+            
         }
     }
 

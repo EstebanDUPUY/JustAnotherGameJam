@@ -34,8 +34,25 @@ public class AudioManager : MonoBehaviour
         spectrum = new float[sampleSize];
 
 
+        //music.Play(0);
+
+        //FindBPMRunTime();
+    }
+
+    void OnEnable()
+    {
+        TriggerMusic.MusicOn += PlaySong;
+    }
+
+    void OnDisable()
+    {
+        TriggerMusic.MusicOn -= PlaySong;
+    }
+
+    private void PlaySong()
+    {
+        Debug.Log("Here Song");
         music.Play(0);
-        FindBPMRunTime();
     }
 
     void Update()

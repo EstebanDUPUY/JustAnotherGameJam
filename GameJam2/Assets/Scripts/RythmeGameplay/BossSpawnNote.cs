@@ -14,7 +14,6 @@ public class BossSpawnNote : MonoBehaviour
     void Start()
     {
         StartCoroutine(SpawnNoteInRythm());
-        Resources.Load<GameObject>("NoteSimple");
     }
 
     void OnEnable()
