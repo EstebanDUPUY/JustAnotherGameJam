@@ -18,7 +18,7 @@ public class BossSpawnNote : MonoBehaviour
     private GameObject ChooseNote()
     {
         GameObject tempo = null;
-        int random = UnityEngine.Random.Range(0, 2);
+        int random = UnityEngine.Random.Range(0, 3);
 
         switch (random)
         {
@@ -27,6 +27,9 @@ public class BossSpawnNote : MonoBehaviour
                 break;
             case 1:
                 tempo = Resources.Load<GameObject>("NoteBomb");
+                break;
+            case 2:
+                tempo = Resources.Load<GameObject>("NoteTrick");
                 break;
         }
         return tempo;
