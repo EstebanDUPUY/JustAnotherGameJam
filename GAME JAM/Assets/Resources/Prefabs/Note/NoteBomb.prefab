@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beatTempo: 320
   hasStarted: 0
-  type: 1
+  type: 0
   isValided: 0
 --- !u!61 &4415621762837083638
 BoxCollider2D:

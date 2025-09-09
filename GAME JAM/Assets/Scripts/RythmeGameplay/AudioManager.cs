@@ -16,22 +16,10 @@ public class AudioManager : MonoBehaviour
     public float threshold = 1.5f; // seuil pour considérer un onset
     public int smoothCount = 5; // nombre de BPM moyens à lisser
 
-    private float[] spectrum;
-    private float lastEnergy = 0f;
-    private float lastOnsetTime = 0f;
-    private List<float> bpmHistory = new List<float>();
-
-
-
-
-
-
 
     void Start()
     {
         bpm = UniBpmAnalyzer.AnalyzeBpm(music.clip);
-
-        spectrum = new float[sampleSize];
 
         FindBPM?.Invoke(bpm);
         Debug.Log(bpm);
