@@ -626,6 +626,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &603188534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603188536}
+  - component: {fileID: 603188535}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &603188535
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603188534}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &603188536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603188534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.75294, y: 2.52809, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &700043615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -810,7 +864,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 700043614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ed0b358d25a994883bcc2f63406fff, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e94d13f793d7784ebaa70baa2d6f689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossSpawnNote
 --- !u!1 &726927784
@@ -1051,8 +1105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5237daa3b3a34643bf324ae6c4c4020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNote
-  id: 1
-  SaveLane: {fileID: 1064641328}
 --- !u!4 &1501378374
 Transform:
   m_ObjectHideFlags: 0
@@ -1097,8 +1149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5237daa3b3a34643bf324ae6c4c4020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNote
-  id: 0
-  SaveLane: {fileID: 1064641328}
 --- !u!4 &1726015999
 Transform:
   m_ObjectHideFlags: 0
@@ -1407,11 +1457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c391d3d71b5c02142b3f36c67b276d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 2087436478}
-  bpm: 80
-  sampleSize: 1024
-  threshold: 1.5
-  smoothCount: 5
 --- !u!4 &2087436480
 Transform:
   m_ObjectHideFlags: 0
@@ -1701,3 +1746,4 @@ SceneRoots:
   - {fileID: 2118395340}
   - {fileID: 408860606}
   - {fileID: 1064641329}
+  - {fileID: 603188536}
