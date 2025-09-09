@@ -1,0 +1,4797 @@
+fileFormatVersion: 2
+guid: 6ffd9c343bb694748b773893f93e0bfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8789061975442437778
+    second: MinimalPressedSheet_0
+  - first:
+      213: -7021659068076526669
+    second: MinimalPressedSheet_1
+  - first:
+      213: 70250281400039886
+    second: MinimalPressedSheet_2
+  - first:
+      213: -5468015619519575743
+    second: MinimalPressedSheet_3
+  - first:
+      213: -3644533892373525134
+    second: MinimalPressedSheet_4
+  - first:
+      213: 6473423887016583080
+    second: MinimalPressedSheet_5
+  - first:
+      213: 2396440741936174962
+    second: MinimalPressedSheet_6
+  - first:
+      213: 4102982287785482350
+    second: MinimalPressedSheet_7
+  - first:
+      213: 6076855647820578695
+    second: MinimalPressedSheet_8
+  - first:
+      213: -2894755084025820876
+    second: MinimalPressedSheet_9
+  - first:
+      213: 1921287286055580487
+    second: MinimalPressedSheet_10
+  - first:
+      213: 340783132081227368
+    second: MinimalPressedSheet_11
+  - first:
+      213: 3424474986068763783
+    second: MinimalPressedSheet_12
+  - first:
+      213: 5329259066568924813
+    second: MinimalPressedSheet_13
+  - first:
+      213: 159709498979909165
+    second: MinimalPressedSheet_14
+  - first:
+      213: -8060579880130447084
+    second: MinimalPressedSheet_15
+  - first:
+      213: 8411014945158796730
+    second: MinimalPressedSheet_16
+  - first:
+      213: -4638682551231815812
+    second: MinimalPressedSheet_17
+  - first:
+      213: 2967066880621673951
+    second: MinimalPressedSheet_18
+  - first:
+      213: 8909722008237776117
+    second: MinimalPressedSheet_19
+  - first:
+      213: 352088235913403077
+    second: MinimalPressedSheet_20
+  - first:
+      213: -6379436128838554180
+    second: MinimalPressedSheet_21
+  - first:
+      213: 3103786865209001734
+    second: MinimalPressedSheet_22
+  - first:
+      213: 9024490481337866876
+    second: MinimalPressedSheet_23
+  - first:
+      213: 9122504930230669964
+    second: MinimalPressedSheet_24
+  - first:
+      213: -7555629362712720207
+    second: MinimalPressedSheet_25
+  - first:
+      213: -2108009197659448907
+    second: MinimalPressedSheet_26
+  - first:
+      213: -7130990658785668216
+    second: MinimalPressedSheet_27
+  - first:
+      213: 8418638035307303237
+    second: MinimalPressedSheet_28
+  - first:
+      213: -5223042306474720327
+    second: MinimalPressedSheet_29
+  - first:
+      213: 2458764551343181214
+    second: MinimalPressedSheet_30
+  - first:
+      213: 8942922564997075960
+    second: MinimalPressedSheet_31
+  - first:
+      213: -7186739757597669946
+    second: MinimalPressedSheet_32
+  - first:
+      213: -9191523560462133854
+    second: MinimalPressedSheet_33
+  - first:
+      213: 4507772553596884861
+    second: MinimalPressedSheet_34
+  - first:
+      213: -588009085299549857
+    second: MinimalPressedSheet_35
+  - first:
+      213: -7740244569402756143
+    second: MinimalPressedSheet_36
+  - first:
+      213: -5512517191529058925
+    second: MinimalPressedSheet_37
+  - first:
+      213: 6146628849716082489
+    second: MinimalPressedSheet_38
+  - first:
+      213: 8813292910764466466
+    second: MinimalPressedSheet_39
+  - first:
+      213: 7405555422642140544
+    second: MinimalPressedSheet_40
+  - first:
+      213: 4136142115312499449
+    second: MinimalPressedSheet_41
+  - first:
+      213: 3492613477093159021
+    second: MinimalPressedSheet_42
+  - first:
+      213: -5910395191577077038
+    second: MinimalPressedSheet_43
+  - first:
+      213: 6751953631722281315
+    second: MinimalPressedSheet_44
+  - first:
+      213: 3947737388246747874
+    second: MinimalPressedSheet_45
+  - first:
+      213: -2670008456264193303
+    second: MinimalPressedSheet_46
+  - first:
+      213: 3483928190134014697
+    second: MinimalPressedSheet_47
+  - first:
+      213: -4971816731246503429
+    second: MinimalPressedSheet_48
+  - first:
+      213: -7473640968272989329
+    second: MinimalPressedSheet_49
+  - first:
+      213: -4919112086837432819
+    second: MinimalPressedSheet_50
+  - first:
+      213: 5026205588480181743
+    second: MinimalPressedSheet_51
+  - first:
+      213: -6941610118691579428
+    second: MinimalPressedSheet_52
+  - first:
+      213: -7118015115586664291
+    second: MinimalPressedSheet_53
+  - first:
+      213: 6789226179825857509
+    second: MinimalPressedSheet_54
+  - first:
+      213: 4031371487389612685
+    second: MinimalPressedSheet_55
+  - first:
+      213: 7897975021590759747
+    second: MinimalPressedSheet_56
+  - first:
+      213: -7610049968335121159
+    second: MinimalPressedSheet_57
+  - first:
+      213: -831077537331482269
+    second: MinimalPressedSheet_58
+  - first:
+      213: 7688775742861202392
+    second: MinimalPressedSheet_59
+  - first:
+      213: 6660222912581391208
+    second: MinimalPressedSheet_60
+  - first:
+      213: 4803199195711739100
+    second: MinimalPressedSheet_61
+  - first:
+      213: -7744267122380340137
+    second: MinimalPressedSheet_62
+  - first:
+      213: -5768862452192726012
+    second: MinimalPressedSheet_63
+  - first:
+      213: 6494380234068604691
+    second: MinimalPressedSheet_64
+  - first:
+      213: 7744000664845515699
+    second: MinimalPressedSheet_65
+  - first:
+      213: -2146816023166459621
+    second: MinimalPressedSheet_66
+  - first:
+      213: 118619432110572465
+    second: MinimalPressedSheet_67
+  - first:
+      213: -1754838131776190580
+    second: MinimalPressedSheet_68
+  - first:
+      213: 5592389090062920327
+    second: MinimalPressedSheet_69
+  - first:
+      213: 4900990703933565547
+    second: MinimalPressedSheet_70
+  - first:
+      213: -2885009962888619418
+    second: MinimalPressedSheet_71
+  - first:
+      213: -901033845658639598
+    second: MinimalPressedSheet_72
+  - first:
+      213: 7943083543611800413
+    second: MinimalPressedSheet_73
+  - first:
+      213: -5516665899454377366
+    second: MinimalPressedSheet_74
+  - first:
+      213: -8226649769634304097
+    second: MinimalPressedSheet_75
+  - first:
+      213: -5967268242821525211
+    second: MinimalPressedSheet_76
+  - first:
+      213: -4315182345921953369
+    second: MinimalPressedSheet_77
+  - first:
+      213: -827462839959545652
+    second: MinimalPressedSheet_78
+  - first:
+      213: -3702086761842238792
+    second: MinimalPressedSheet_79
+  - first:
+      213: 4659341684978168155
+    second: MinimalPressedSheet_80
+  - first:
+      213: -4938923548096948644
+    second: MinimalPressedSheet_81
+  - first:
+      213: 4968295489082485064
+    second: MinimalPressedSheet_82
+  - first:
+      213: -8949751323268174049
+    second: MinimalPressedSheet_83
+  - first:
+      213: 3435197513755195134
+    second: MinimalPressedSheet_84
+  - first:
+      213: -2168226630907803549
+    second: MinimalPressedSheet_85
+  - first:
+      213: 152142907631663681
+    second: MinimalPressedSheet_86
+  - first:
+      213: 2960143038002285500
+    second: MinimalPressedSheet_87
+  - first:
+      213: 6459620817622080199
+    second: MinimalPressedSheet_88
+  - first:
+      213: 4622479489221356547
+    second: MinimalPressedSheet_89
+  - first:
+      213: 6505345167010501413
+    second: MinimalPressedSheet_90
+  - first:
+      213: 4938524161404589247
+    second: MinimalPressedSheet_91
+  - first:
+      213: 7714934586293400533
+    second: MinimalPressedSheet_92
+  - first:
+      213: 2131889414114175392
+    second: MinimalPressedSheet_93
+  - first:
+      213: 2304384448918485383
+    second: MinimalPressedSheet_94
+  - first:
+      213: -2836532609988298572
+    second: MinimalPressedSheet_95
+  - first:
+      213: 2993699848198647927
+    second: MinimalPressedSheet_96
+  - first:
+      213: 2559170658822359982
+    second: MinimalPressedSheet_97
+  - first:
+      213: -4242988746723371487
+    second: MinimalPressedSheet_98
+  - first:
+      213: 3821618343154541244
+    second: MinimalPressedSheet_99
+  - first:
+      213: -1052323564878961562
+    second: MinimalPressedSheet_100
+  - first:
+      213: 766843096685918664
+    second: MinimalPressedSheet_101
+  - first:
+      213: 3388593937485315013
+    second: MinimalPressedSheet_102
+  - first:
+      213: 4541006823490158576
+    second: MinimalPressedSheet_103
+  - first:
+      213: 288516639643321223
+    second: MinimalPressedSheet_104
+  - first:
+      213: 3422848744567561667
+    second: MinimalPressedSheet_105
+  - first:
+      213: 8411425327859458440
+    second: MinimalPressedSheet_106
+  - first:
+      213: 5591257879461822996
+    second: MinimalPressedSheet_107
+  - first:
+      213: -7128864417571683099
+    second: MinimalPressedSheet_108
+  - first:
+      213: 937942158572207575
+    second: MinimalPressedSheet_109
+  - first:
+      213: 8724090055961760457
+    second: MinimalPressedSheet_110
+  - first:
+      213: -9112120565700035765
+    second: MinimalPressedSheet_111
+  - first:
+      213: 4087338451150881627
+    second: MinimalPressedSheet_112
+  - first:
+      213: 5328514253890879639
+    second: MinimalPressedSheet_113
+  - first:
+      213: 8033072560094384634
+    second: MinimalPressedSheet_114
+  - first:
+      213: -2493254599054022575
+    second: MinimalPressedSheet_115
+  - first:
+      213: -2324741449579658507
+    second: MinimalPressedSheet_116
+  - first:
+      213: 1682922865764132604
+    second: MinimalPressedSheet_117
+  - first:
+      213: -2822142699045229678
+    second: MinimalPressedSheet_118
+  - first:
+      213: 6635249101490874538
+    second: MinimalPressedSheet_119
+  - first:
+      213: -8366012784678519879
+    second: MinimalPressedSheet_120
+  - first:
+      213: 7940885833947751956
+    second: MinimalPressedSheet_121
+  - first:
+      213: -5283132582859714790
+    second: MinimalPressedSheet_122
+  - first:
+      213: 2786842260725444922
+    second: MinimalPressedSheet_123
+  - first:
+      213: 555029306633995974
+    second: MinimalPressedSheet_124
+  - first:
+      213: 1330587971771023876
+    second: MinimalPressedSheet_125
+  - first:
+      213: -2111931779004147958
+    second: MinimalPressedSheet_126
+  - first:
+      213: -1462632515245418785
+    second: MinimalPressedSheet_127
+  - first:
+      213: 1119927681624892284
+    second: MinimalPressedSheet_128
+  - first:
+      213: -5120072036350782348
+    second: MinimalPressedSheet_129
+  - first:
+      213: 3008473971277082497
+    second: MinimalPressedSheet_130
+  - first:
+      213: 6000120955247582567
+    second: MinimalPressedSheet_131
+  - first:
+      213: -6945625185655680351
+    second: MinimalPressedSheet_132
+  - first:
+      213: 366760688618319720
+    second: MinimalPressedSheet_133
+  - first:
+      213: 7555455753956686816
+    second: MinimalPressedSheet_134
+  - first:
+      213: -4478606767170223131
+    second: MinimalPressedSheet_135
+  - first:
+      213: -5590832633623170909
+    second: MinimalPressedSheet_136
+  - first:
+      213: 3523879934204682708
+    second: MinimalPressedSheet_137
+  - first:
+      213: -2991894007113540887
+    second: MinimalPressedSheet_138
+  - first:
+      213: 3882737191514757766
+    second: MinimalPressedSheet_139
+  - first:
+      213: 1511064459062229521
+    second: MinimalPressedSheet_140
+  - first:
+      213: 8474383015214645033
+    second: MinimalPressedSheet_141
+  - first:
+      213: 5254372589833635994
+    second: MinimalPressedSheet_142
+  - first:
+      213: 3566801581404985436
+    second: MinimalPressedSheet_143
+  - first:
+      213: -3509401321177442353
+    second: MinimalPressedSheet_144
+  - first:
+      213: -1039669951991172787
+    second: MinimalPressedSheet_145
+  - first:
+      213: 778389588200073200
+    second: MinimalPressedSheet_146
+  - first:
+      213: 5204128632474847212
+    second: MinimalPressedSheet_147
+  - first:
+      213: 3883522812441318501
+    second: MinimalPressedSheet_148
+  - first:
+      213: -2381863114974368807
+    second: MinimalPressedSheet_149
+  - first:
+      213: -3635624239941456401
+    second: MinimalPressedSheet_150
+  - first:
+      213: 6327212007498110055
+    second: MinimalPressedSheet_151
+  - first:
+      213: -5931101358834846009
+    second: MinimalPressedSheet_152
+  - first:
+      213: -5651954691881634975
+    second: MinimalPressedSheet_153
+  - first:
+      213: 4228287371490542969
+    second: MinimalPressedSheet_154
+  - first:
+      213: 2576312709056308738
+    second: MinimalPressedSheet_155
+  - first:
+      213: 4127567554448368700
+    second: MinimalPressedSheet_156
+  - first:
+      213: -1630229316059602443
+    second: MinimalPressedSheet_157
+  - first:
+      213: 5406230494103834956
+    second: MinimalPressedSheet_158
+  - first:
+      213: -9134572982576651826
+    second: MinimalPressedSheet_159
+  - first:
+      213: 8469956889645197709
+    second: MinimalPressedSheet_160
+  - first:
+      213: -1390964143093509684
+    second: MinimalPressedSheet_161
+  - first:
+      213: -6871499712411564998
+    second: MinimalPressedSheet_162
+  - first:
+      213: 7804688511075874313
+    second: MinimalPressedSheet_163
+  - first:
+      213: 5044311629729721192
+    second: MinimalPressedSheet_164
+  - first:
+      213: 6706814951519955658
+    second: MinimalPressedSheet_165
+  - first:
+      213: 8186051428376007277
+    second: MinimalPressedSheet_166
+  - first:
+      213: 1354880842110970863
+    second: MinimalPressedSheet_167
+  - first:
+      213: -7319984522699281657
+    second: MinimalPressedSheet_168
+  - first:
+      213: 4575530906945373772
+    second: MinimalPressedSheet_169
+  - first:
+      213: -919757987178674203
+    second: MinimalPressedSheet_170
+  - first:
+      213: 647890386804128301
+    second: MinimalPressedSheet_171
+  - first:
+      213: 2977287856058204851
+    second: MinimalPressedSheet_172
+  - first:
+      213: -7031534526086713333
+    second: MinimalPressedSheet_173
+  - first:
+      213: -7999354566054938427
+    second: MinimalPressedSheet_174
+  - first:
+      213: 7209533742970376189
+    second: MinimalPressedSheet_175
+  - first:
+      213: 8113039606085753949
+    second: MinimalPressedSheet_176
+  - first:
+      213: 6618632812535953909
+    second: MinimalPressedSheet_177
+  - first:
+      213: -943709993058276130
+    second: MinimalPressedSheet_178
+  - first:
+      213: -5650366726596490875
+    second: MinimalPressedSheet_179
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MinimalPressedSheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 382
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e694cd423baf60680800000000000000
+      internalID: -8789061975442437778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 382
+        width: 15
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3f569a74e0e8e90800000000000000
+      internalID: -7021659068076526669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 382
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9783c324499f000800000000000000
+      internalID: 70250281400039886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 338
+        width: 61
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1498f3cc3c4bd14b0800000000000000
+      internalID: -5468015619519575743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 338
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d44350cb30c6dc0800000000000000
+      internalID: -3644533892373525134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 294
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afd6224ab836d950800000000000000
+      internalID: 6473423887016583080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277116c682ed14120800000000000000
+      internalID: 2396440741936174962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e685c27f6a8b0f830800000000000000
+      internalID: 4102982287785482350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ffbafd304555450800000000000000
+      internalID: 6076855647820578695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 294
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43982e09693c3d7d0800000000000000
+      internalID: -2894755084025820876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74331d47b98c9aa10800000000000000
+      internalID: 1921287286055580487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866852df374bab400800000000000000
+      internalID: 340783132081227368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784e6de2bdd268f20800000000000000
+      internalID: 3424474986068763783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ededaa2e455f940800000000000000
+      internalID: 5329259066568924813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ef3f171f6673200800000000000000
+      internalID: 159709498979909165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419f9294e41132090800000000000000
+      internalID: -8060579880130447084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab511b6778de9b470800000000000000
+      internalID: 8411014945158796730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_17
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f5604ebc610afb0800000000000000
+      internalID: -4638682551231815812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 294
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddf7449b932d2920800000000000000
+      internalID: 2967066880621673951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 294
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc1e74f5f0b5ab70800000000000000
+      internalID: 8909722008237776117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_20
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 294
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca5637926ed2e400800000000000000
+      internalID: 352088235913403077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 293
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbde849f3a0b777a0800000000000000
+      internalID: -6379436128838554180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_22
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 294
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6074e4795bdd21b20800000000000000
+      internalID: 3103786865209001734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 294
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a990b674e6d3d70800000000000000
+      internalID: 9024490481337866876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c821624a6e5a99e70800000000000000
+      internalID: 9122504930230669964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc4ff44023052790800000000000000
+      internalID: -7555629362712720207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9904eadc8deb2e0800000000000000
+      internalID: -2108009197659448907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883937607c1a90d90800000000000000
+      internalID: -7130990658785668216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541951370b205d470800000000000000
+      internalID: 8418638035307303237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3ccb3f1b60487b0800000000000000
+      internalID: -5223042306474720327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_30
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d022515594f1220800000000000000
+      internalID: 2458764551343181214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3d974f0b4ab1c70800000000000000
+      internalID: 8942922564997075960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_32
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5c6377442934c90800000000000000
+      internalID: -7186739757597669946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_33
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a555024506217080800000000000000
+      internalID: -9191523560462133854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_34
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77d5691143de8e30800000000000000
+      internalID: 4507772553596884861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_35
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5994023ad8f6d7f0800000000000000
+      internalID: -588009085299549857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 272
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d33a1ed290259490800000000000000
+      internalID: -7740244569402756143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 272
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d2da422da9f73b0800000000000000
+      internalID: -5512517191529058925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_38
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 272
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937be716f563d4550800000000000000
+      internalID: 6146628849716082489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 272
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221a59f153b1f4a70800000000000000
+      internalID: 8813292910764466466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_40
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 271
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0857d0bab61d5c660800000000000000
+      internalID: 7405555422642140544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_41
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 250
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fafbb3f657866930800000000000000
+      internalID: 4136142115312499449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_42
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6031e7e371487030800000000000000
+      internalID: 3492613477093159021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da1fdb43ee0afda0800000000000000
+      internalID: -5910395191577077038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_44
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36917befd02c3bd50800000000000000
+      internalID: 6751953631722281315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_45
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eac9f41d3e29c630800000000000000
+      internalID: 3947737388246747874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_46
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea6511947932fad0800000000000000
+      internalID: -2670008456264193303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_47
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e258e3fa36695030800000000000000
+      internalID: 3483928190134014697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf955b5560f800bb0800000000000000
+      internalID: -4971816731246503429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_49
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63384be22b484890800000000000000
+      internalID: -7473640968272989329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_50
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e69bd9e9dcbbbb0800000000000000
+      internalID: -4919112086837432819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_51
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5c17d4a5ba0c540800000000000000
+      internalID: 5026205588480181743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_52
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9912210627aaf90800000000000000
+      internalID: -6941610118691579428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98889917fab73d90800000000000000
+      internalID: -7118015115586664291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_54
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 250
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e37d4c5d3d283e50800000000000000
+      internalID: 6789226179825857509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_55
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 228
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8afe77320f42f730800000000000000
+      internalID: 4031371487389612685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34943d6df6e3b9d60800000000000000
+      internalID: 7897975021590759747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f49962afdba36690800000000000000
+      internalID: -7610049968335121159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_58
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361fc8e026b6774f0800000000000000
+      internalID: -831077537331482269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_59
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3d1ee1dc404ba60800000000000000
+      internalID: 7688775742861202392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_60
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863d45d937ddd6c50800000000000000
+      internalID: 6660222912581391208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_61
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd417d5583468a240800000000000000
+      internalID: 4803199195711739100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_62
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75488c44516d68490800000000000000
+      internalID: -7744267122380340137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_63
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404b6fa1a22e0ffa0800000000000000
+      internalID: -5768862452192726012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_64
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3173af70a6ca02a50800000000000000
+      internalID: 6494380234068604691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_65
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb71804397387b60800000000000000
+      internalID: 7744000664845515699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_66
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 228
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11eb05833af432e0800000000000000
+      internalID: -2146816023166459621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_67
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 228
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3c86abebb65a100800000000000000
+      internalID: 118619432110572465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_68
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c878b25440095a7e0800000000000000
+      internalID: -1754838131776190580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a68f66f382c9d40800000000000000
+      internalID: 5592389090062920327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6aa3732411d30440800000000000000
+      internalID: 4900990703933565547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_71
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a9f8469b266f7d0800000000000000
+      internalID: -2885009962888619418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_72
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213a9e2cd72ee73f0800000000000000
+      internalID: -901033845658639598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_73
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b7b3e06608b3e60800000000000000
+      internalID: 7943083543611800413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_74
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62d28ec79dd073b0800000000000000
+      internalID: -5516665899454377366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_75
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fe5650f9115dd80800000000000000
+      internalID: -8226649769634304097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_76
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521572b2621003da0800000000000000
+      internalID: -5967268242821525211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_77
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1094ae4846d14c0800000000000000
+      internalID: -4315182345921953369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_78
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 206
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8106f5ee24484f0800000000000000
+      internalID: -827462839959545652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_79
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 206
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba97b064bb8f9cc0800000000000000
+      internalID: -3702086761842238792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_80
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 206
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b513b44839e49a040800000000000000
+      internalID: 4659341684978168155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_81
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 205
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c569ed6533b657bb0800000000000000
+      internalID: -4938923548096948644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_82
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 205
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849efe59c6ee2f440800000000000000
+      internalID: 4968295489082485064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_83
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 205
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fa48cd6981cc380800000000000000
+      internalID: -8949751323268174049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 184
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6fea430f54caf20800000000000000
+      internalID: 3435197513755195134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_85
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368c230fd59e8e1e0800000000000000
+      internalID: -2168226630907803549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_86
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 183
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14afa7c1b258c1200800000000000000
+      internalID: 152142907631663681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_87
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 183
+        width: 130
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbc878d86a841920800000000000000
+      internalID: 2960143038002285500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_88
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca151ab8ee25a950800000000000000
+      internalID: 6459620817622080199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_89
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 183
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c6190ca98562040800000000000000
+      internalID: 4622479489221356547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_90
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 183
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52317fc66f0a74a50800000000000000
+      internalID: 6505345167010501413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_91
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb454333f89298440800000000000000
+      internalID: 4938524161404589247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_92
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3b4697124f01b60800000000000000
+      internalID: 7714934586293400533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_93
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9e0bc702ef59d10800000000000000
+      internalID: 2131889414114175392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_94
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78978b77271daff10800000000000000
+      internalID: 2304384448918485383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_95
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f5dbae9c92a8d0800000000000000
+      internalID: -2836532609988298572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_96
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77075009622cb8920800000000000000
+      internalID: 2993699848198647927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_97
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab85b6b720048320800000000000000
+      internalID: 2559170658822359982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_98
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126d2951730ed15c0800000000000000
+      internalID: -4242988746723371487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_99
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2e7d2a2ad190530800000000000000
+      internalID: 3821618343154541244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_100
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664ed9e0b456561f0800000000000000
+      internalID: -1052323564878961562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_101
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 162
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9bc68cbbf54aa00800000000000000
+      internalID: 766843096685918664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 162
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbbadb8b34b60f20800000000000000
+      internalID: 3388593937485315013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_103
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 162
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff71cc85a5e40f30800000000000000
+      internalID: 4541006823490158576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_104
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 162
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783cab9ea54010400800000000000000
+      internalID: 288516639643321223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_105
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 162
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd57d35cc6608f20800000000000000
+      internalID: 3422848744567561667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_106
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 146
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88169c125c26bb470800000000000000
+      internalID: 8411425327859458440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_107
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 147
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4120de8ea63289d40800000000000000
+      internalID: 5591257879461822996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_108
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 147
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4c7b2259f211d90800000000000000
+      internalID: -7128864417571683099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_109
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 147
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd3f8d7c6d340d00800000000000000
+      internalID: 937942158572207575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_110
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 161
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c25e160fa1321970800000000000000
+      internalID: 8724090055961760457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_111
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 161
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bfae2af9e3b8180800000000000000
+      internalID: -9112120565700035765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_112
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 140
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53c4a96aa429b830800000000000000
+      internalID: 4087338451150881627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_113
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 140
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79085c37b7fa2f940800000000000000
+      internalID: 5328514253890879639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_114
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 140
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af11d5faee43b7f60800000000000000
+      internalID: 8033072560094384634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_115
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 140
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158a6c8e62e266dd0800000000000000
+      internalID: -2493254599054022575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_116
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 140
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f28d27f7fbdcbfd0800000000000000
+      internalID: -2324741449579658507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_117
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 117
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6e04e0e61fa5710800000000000000
+      internalID: 1682922865764132604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_118
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 118
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b62f5ea2cb5d8d0800000000000000
+      internalID: -2822142699045229678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_119
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 118
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8e79a17e3251c50800000000000000
+      internalID: 6635249101490874538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_120
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 118
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb3cd682b3f5eb80800000000000000
+      internalID: -8366012784678519879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_121
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 118
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4162366e791b33e60800000000000000
+      internalID: 7940885833947751956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_122
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 118
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fca5938ea8ea6b0800000000000000
+      internalID: -5283132582859714790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_123
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 118
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a313693554adca620800000000000000
+      internalID: 2786842260725444922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_124
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 117
+        width: 130
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c9d5b63cd3b700800000000000000
+      internalID: 555029306633995974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_125
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 96
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402c1d7e5b2377210800000000000000
+      internalID: 1330587971771023876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_126
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07599a8c39e0b2e0800000000000000
+      internalID: -2111931779004147958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_127
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 96
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd65cdb0a7fa3bbe0800000000000000
+      internalID: -1462632515245418785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_128
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73e065fa48ca8f00800000000000000
+      internalID: 1119927681624892284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_129
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 96
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47496e83c99d1f8b0800000000000000
+      internalID: -5120072036350782348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_130
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 96
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18faaf5232f30c920800000000000000
+      internalID: 3008473971277082497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_131
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 95
+        width: 130
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dd8e20836b44350800000000000000
+      internalID: 6000120955247582567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_132
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a29cf171be2c9f90800000000000000
+      internalID: -6945625185655680351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_133
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f2ca237eef61500800000000000000
+      internalID: 366760688618319720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_134
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebf4ca4afe5ad860800000000000000
+      internalID: 7555455753956686816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3882abfdac8d1c0800000000000000
+      internalID: -4478606767170223131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_136
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0ba3a575f5962b0800000000000000
+      internalID: -5590832633623170909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_137
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1a56d312657e030800000000000000
+      internalID: 3523879934204682708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_138
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea90649048aa76d0800000000000000
+      internalID: -2991894007113540887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_139
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a5f6077e042e530800000000000000
+      internalID: 3882737191514757766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_140
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a3f1b9e1168f410800000000000000
+      internalID: 1511064459062229521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_141
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ff870047e0b9570800000000000000
+      internalID: 8474383015214645033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_142
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98459618084be840800000000000000
+      internalID: 5254372589833635994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_143
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 73
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5812fbf323df7130800000000000000
+      internalID: 3566801581404985436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_144
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc79eec871a1c4fc0800000000000000
+      internalID: -3509401321177442353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_145
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d413be3efa95291f0800000000000000
+      internalID: -1039669951991172787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_146
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f72785d4356dca00800000000000000
+      internalID: 778389588200073200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce74a182b67c83840800000000000000
+      internalID: 5204128632474847212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_148
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564d0b01c6b05e530800000000000000
+      internalID: 3883522812441318501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_149
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbe858dd1ce1fed0800000000000000
+      internalID: -2381863114974368807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_150
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed6d71240bab8dc0800000000000000
+      internalID: -3635624239941456401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_151
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764d28d3cc5cec750800000000000000
+      internalID: 6327212007498110055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_152
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6ffcb0dbe70bda0800000000000000
+      internalID: -5931101358834846009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_153
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163facf27293091b0800000000000000
+      internalID: -5651954691881634975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_154
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975c6f146f4edaa30800000000000000
+      internalID: 4228287371490542969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_155
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 52
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20620ad42c6e0c320800000000000000
+      internalID: 2576312709056308738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_156
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34a25d62d0184930800000000000000
+      internalID: 4127567554448368700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_157
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1e6d903134069e0800000000000000
+      internalID: -1630229316059602443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_158
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4191feadf9c60b40800000000000000
+      internalID: 5406230494103834956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_159
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec163a6f44a7b3180800000000000000
+      internalID: -9134572982576651826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_160
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89ac265ae45b8570800000000000000
+      internalID: 8469956889645197709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_161
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 30
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc11b934b7d42bce0800000000000000
+      internalID: -1390964143093509684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_162
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 30
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3482871b6783a0a0800000000000000
+      internalID: -6871499712411564998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_163
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906ff3d89d2df4c60800000000000000
+      internalID: 7804688511075874313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_164
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 30
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b696a83bef00640800000000000000
+      internalID: 5044311629729721192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_165
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 30
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca20a70aa4631d50800000000000000
+      internalID: 6706814951519955658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_166
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 30
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d625e6d0762ba9170800000000000000
+      internalID: 8186051428376007277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_167
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 30
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feba10b82f08dc210800000000000000
+      internalID: 1354880842110970863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_168
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70be62b0cd03a6a90800000000000000
+      internalID: -7319984522699281657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_169
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46cc4f1e1d8f7f30800000000000000
+      internalID: 4575530906945373772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_170
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e703e6dbfc5c33f0800000000000000
+      internalID: -919757987178674203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_171
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ab9d6cfd4cdf800800000000000000
+      internalID: 647890386804128301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_172
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b20f6ed783715920800000000000000
+      internalID: 2977287856058204851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_173
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00f4ba6a98fa6e90800000000000000
+      internalID: -7031534526086713333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_174
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c875e197659cf090800000000000000
+      internalID: -7999354566054938427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_175
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff01f1ddb86d0460800000000000000
+      internalID: 7209533742970376189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_176
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c9a69798e479070800000000000000
+      internalID: 8113039606085753949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_177
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f933f9d97b1adb50800000000000000
+      internalID: 6618632812535953909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_178
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 8
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc66c4e2c447e2f0800000000000000
+      internalID: -943709993058276130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinimalPressedSheet_179
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 7
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589878a266dd591b0800000000000000
+      internalID: -5650366726596490875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MinimalPressedSheet_0: -8789061975442437778
+      MinimalPressedSheet_1: -7021659068076526669
+      MinimalPressedSheet_10: 1921287286055580487
+      MinimalPressedSheet_100: -1052323564878961562
+      MinimalPressedSheet_101: 766843096685918664
+      MinimalPressedSheet_102: 3388593937485315013
+      MinimalPressedSheet_103: 4541006823490158576
+      MinimalPressedSheet_104: 288516639643321223
+      MinimalPressedSheet_105: 3422848744567561667
+      MinimalPressedSheet_106: 8411425327859458440
+      MinimalPressedSheet_107: 5591257879461822996
+      MinimalPressedSheet_108: -7128864417571683099
+      MinimalPressedSheet_109: 937942158572207575
+      MinimalPressedSheet_11: 340783132081227368
+      MinimalPressedSheet_110: 8724090055961760457
+      MinimalPressedSheet_111: -9112120565700035765
+      MinimalPressedSheet_112: 4087338451150881627
+      MinimalPressedSheet_113: 5328514253890879639
+      MinimalPressedSheet_114: 8033072560094384634
+      MinimalPressedSheet_115: -2493254599054022575
+      MinimalPressedSheet_116: -2324741449579658507
+      MinimalPressedSheet_117: 1682922865764132604
+      MinimalPressedSheet_118: -2822142699045229678
+      MinimalPressedSheet_119: 6635249101490874538
+      MinimalPressedSheet_12: 3424474986068763783
+      MinimalPressedSheet_120: -8366012784678519879
+      MinimalPressedSheet_121: 7940885833947751956
+      MinimalPressedSheet_122: -5283132582859714790
+      MinimalPressedSheet_123: 2786842260725444922
+      MinimalPressedSheet_124: 555029306633995974
+      MinimalPressedSheet_125: 1330587971771023876
+      MinimalPressedSheet_126: -2111931779004147958
+      MinimalPressedSheet_127: -1462632515245418785
+      MinimalPressedSheet_128: 1119927681624892284
+      MinimalPressedSheet_129: -5120072036350782348
+      MinimalPressedSheet_13: 5329259066568924813
+      MinimalPressedSheet_130: 3008473971277082497
+      MinimalPressedSheet_131: 6000120955247582567
+      MinimalPressedSheet_132: -6945625185655680351
+      MinimalPressedSheet_133: 366760688618319720
+      MinimalPressedSheet_134: 7555455753956686816
+      MinimalPressedSheet_135: -4478606767170223131
+      MinimalPressedSheet_136: -5590832633623170909
+      MinimalPressedSheet_137: 3523879934204682708
+      MinimalPressedSheet_138: -2991894007113540887
+      MinimalPressedSheet_139: 3882737191514757766
+      MinimalPressedSheet_14: 159709498979909165
+      MinimalPressedSheet_140: 1511064459062229521
+      MinimalPressedSheet_141: 8474383015214645033
+      MinimalPressedSheet_142: 5254372589833635994
+      MinimalPressedSheet_143: 3566801581404985436
+      MinimalPressedSheet_144: -3509401321177442353
+      MinimalPressedSheet_145: -1039669951991172787
+      MinimalPressedSheet_146: 778389588200073200
+      MinimalPressedSheet_147: 5204128632474847212
+      MinimalPressedSheet_148: 3883522812441318501
+      MinimalPressedSheet_149: -2381863114974368807
+      MinimalPressedSheet_15: -8060579880130447084
+      MinimalPressedSheet_150: -3635624239941456401
+      MinimalPressedSheet_151: 6327212007498110055
+      MinimalPressedSheet_152: -5931101358834846009
+      MinimalPressedSheet_153: -5651954691881634975
+      MinimalPressedSheet_154: 4228287371490542969
+      MinimalPressedSheet_155: 2576312709056308738
+      MinimalPressedSheet_156: 4127567554448368700
+      MinimalPressedSheet_157: -1630229316059602443
+      MinimalPressedSheet_158: 5406230494103834956
+      MinimalPressedSheet_159: -9134572982576651826
+      MinimalPressedSheet_16: 8411014945158796730
+      MinimalPressedSheet_160: 8469956889645197709
+      MinimalPressedSheet_161: -1390964143093509684
+      MinimalPressedSheet_162: -6871499712411564998
+      MinimalPressedSheet_163: 7804688511075874313
+      MinimalPressedSheet_164: 5044311629729721192
+      MinimalPressedSheet_165: 6706814951519955658
+      MinimalPressedSheet_166: 8186051428376007277
+      MinimalPressedSheet_167: 1354880842110970863
+      MinimalPressedSheet_168: -7319984522699281657
+      MinimalPressedSheet_169: 4575530906945373772
+      MinimalPressedSheet_17: -4638682551231815812
+      MinimalPressedSheet_170: -919757987178674203
+      MinimalPressedSheet_171: 647890386804128301
+      MinimalPressedSheet_172: 2977287856058204851
+      MinimalPressedSheet_173: -7031534526086713333
+      MinimalPressedSheet_174: -7999354566054938427
+      MinimalPressedSheet_175: 7209533742970376189
+      MinimalPressedSheet_176: 8113039606085753949
+      MinimalPressedSheet_177: 6618632812535953909
+      MinimalPressedSheet_178: -943709993058276130
+      MinimalPressedSheet_179: -5650366726596490875
+      MinimalPressedSheet_18: 2967066880621673951
+      MinimalPressedSheet_19: 8909722008237776117
+      MinimalPressedSheet_2: 70250281400039886
+      MinimalPressedSheet_20: 352088235913403077
+      MinimalPressedSheet_21: -6379436128838554180
+      MinimalPressedSheet_22: 3103786865209001734
+      MinimalPressedSheet_23: 9024490481337866876
+      MinimalPressedSheet_24: 9122504930230669964
+      MinimalPressedSheet_25: -7555629362712720207
+      MinimalPressedSheet_26: -2108009197659448907
+      MinimalPressedSheet_27: -7130990658785668216
+      MinimalPressedSheet_28: 8418638035307303237
+      MinimalPressedSheet_29: -5223042306474720327
+      MinimalPressedSheet_3: -5468015619519575743
+      MinimalPressedSheet_30: 2458764551343181214
+      MinimalPressedSheet_31: 8942922564997075960
+      MinimalPressedSheet_32: -7186739757597669946
+      MinimalPressedSheet_33: -9191523560462133854
+      MinimalPressedSheet_34: 4507772553596884861
+      MinimalPressedSheet_35: -588009085299549857
+      MinimalPressedSheet_36: -7740244569402756143
+      MinimalPressedSheet_37: -5512517191529058925
+      MinimalPressedSheet_38: 6146628849716082489
+      MinimalPressedSheet_39: 8813292910764466466
+      MinimalPressedSheet_4: -3644533892373525134
+      MinimalPressedSheet_40: 7405555422642140544
+      MinimalPressedSheet_41: 4136142115312499449
+      MinimalPressedSheet_42: 3492613477093159021
+      MinimalPressedSheet_43: -5910395191577077038
+      MinimalPressedSheet_44: 6751953631722281315
+      MinimalPressedSheet_45: 3947737388246747874
+      MinimalPressedSheet_46: -2670008456264193303
+      MinimalPressedSheet_47: 3483928190134014697
+      MinimalPressedSheet_48: -4971816731246503429
+      MinimalPressedSheet_49: -7473640968272989329
+      MinimalPressedSheet_5: 6473423887016583080
+      MinimalPressedSheet_50: -4919112086837432819
+      MinimalPressedSheet_51: 5026205588480181743
+      MinimalPressedSheet_52: -6941610118691579428
+      MinimalPressedSheet_53: -7118015115586664291
+      MinimalPressedSheet_54: 6789226179825857509
+      MinimalPressedSheet_55: 4031371487389612685
+      MinimalPressedSheet_56: 7897975021590759747
+      MinimalPressedSheet_57: -7610049968335121159
+      MinimalPressedSheet_58: -831077537331482269
+      MinimalPressedSheet_59: 7688775742861202392
+      MinimalPressedSheet_6: 2396440741936174962
+      MinimalPressedSheet_60: 6660222912581391208
+      MinimalPressedSheet_61: 4803199195711739100
+      MinimalPressedSheet_62: -7744267122380340137
+      MinimalPressedSheet_63: -5768862452192726012
+      MinimalPressedSheet_64: 6494380234068604691
+      MinimalPressedSheet_65: 7744000664845515699
+      MinimalPressedSheet_66: -2146816023166459621
+      MinimalPressedSheet_67: 118619432110572465
+      MinimalPressedSheet_68: -1754838131776190580
+      MinimalPressedSheet_69: 5592389090062920327
+      MinimalPressedSheet_7: 4102982287785482350
+      MinimalPressedSheet_70: 4900990703933565547
+      MinimalPressedSheet_71: -2885009962888619418
+      MinimalPressedSheet_72: -901033845658639598
+      MinimalPressedSheet_73: 7943083543611800413
+      MinimalPressedSheet_74: -5516665899454377366
+      MinimalPressedSheet_75: -8226649769634304097
+      MinimalPressedSheet_76: -5967268242821525211
+      MinimalPressedSheet_77: -4315182345921953369
+      MinimalPressedSheet_78: -827462839959545652
+      MinimalPressedSheet_79: -3702086761842238792
+      MinimalPressedSheet_8: 6076855647820578695
+      MinimalPressedSheet_80: 4659341684978168155
+      MinimalPressedSheet_81: -4938923548096948644
+      MinimalPressedSheet_82: 4968295489082485064
+      MinimalPressedSheet_83: -8949751323268174049
+      MinimalPressedSheet_84: 3435197513755195134
+      MinimalPressedSheet_85: -2168226630907803549
+      MinimalPressedSheet_86: 152142907631663681
+      MinimalPressedSheet_87: 2960143038002285500
+      MinimalPressedSheet_88: 6459620817622080199
+      MinimalPressedSheet_89: 4622479489221356547
+      MinimalPressedSheet_9: -2894755084025820876
+      MinimalPressedSheet_90: 6505345167010501413
+      MinimalPressedSheet_91: 4938524161404589247
+      MinimalPressedSheet_92: 7714934586293400533
+      MinimalPressedSheet_93: 2131889414114175392
+      MinimalPressedSheet_94: 2304384448918485383
+      MinimalPressedSheet_95: -2836532609988298572
+      MinimalPressedSheet_96: 2993699848198647927
+      MinimalPressedSheet_97: 2559170658822359982
+      MinimalPressedSheet_98: -4242988746723371487
+      MinimalPressedSheet_99: 3821618343154541244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

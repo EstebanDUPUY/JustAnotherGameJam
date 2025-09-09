@@ -1,0 +1,3315 @@
+fileFormatVersion: 2
+guid: f08a3e3272dabb040bd5a833ccb2fcf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1102519387239002348
+    second: DiagramController_0
+  - first:
+      213: -5133907036776666326
+    second: DiagramController_1
+  - first:
+      213: 2364115578066897270
+    second: DiagramController_2
+  - first:
+      213: -6624802189687838041
+    second: DiagramController_3
+  - first:
+      213: -4949527686003193384
+    second: DiagramController_4
+  - first:
+      213: 4136625338574210408
+    second: DiagramController_5
+  - first:
+      213: -175073335229852407
+    second: DiagramController_6
+  - first:
+      213: 425399000566605680
+    second: DiagramController_7
+  - first:
+      213: -7136477302146004497
+    second: DiagramController_8
+  - first:
+      213: 8193575544724309919
+    second: DiagramController_9
+  - first:
+      213: 5979412313736832322
+    second: DiagramController_10
+  - first:
+      213: 8357759104558523908
+    second: DiagramController_11
+  - first:
+      213: 6948232315998261296
+    second: DiagramController_12
+  - first:
+      213: 1936313681743650254
+    second: DiagramController_13
+  - first:
+      213: -8650918297701808704
+    second: DiagramController_14
+  - first:
+      213: -1082148910923186891
+    second: DiagramController_15
+  - first:
+      213: 3891482727964309301
+    second: DiagramController_16
+  - first:
+      213: -4049218872814096907
+    second: DiagramController_17
+  - first:
+      213: -6681267248792566056
+    second: DiagramController_18
+  - first:
+      213: 3812722224996378664
+    second: DiagramController_19
+  - first:
+      213: -6957583608854114035
+    second: DiagramController_20
+  - first:
+      213: 404312421675213392
+    second: DiagramController_21
+  - first:
+      213: 2158110776922245341
+    second: DiagramController_22
+  - first:
+      213: -5575484429056276474
+    second: DiagramController_23
+  - first:
+      213: -5893125433956135926
+    second: DiagramController_24
+  - first:
+      213: -1979386314101449852
+    second: DiagramController_25
+  - first:
+      213: -9023576202632512404
+    second: DiagramController_26
+  - first:
+      213: -3392268185269978260
+    second: DiagramController_27
+  - first:
+      213: -3438654572066232906
+    second: DiagramController_28
+  - first:
+      213: -8784339094805551470
+    second: DiagramController_29
+  - first:
+      213: 4819225755701842169
+    second: DiagramController_30
+  - first:
+      213: -2261943583634931301
+    second: DiagramController_31
+  - first:
+      213: 821659908661875911
+    second: DiagramController_32
+  - first:
+      213: 4799417015652711607
+    second: DiagramController_33
+  - first:
+      213: -9168512880816814995
+    second: DiagramController_34
+  - first:
+      213: -1722850201562965249
+    second: DiagramController_35
+  - first:
+      213: -7160324967289035539
+    second: DiagramController_36
+  - first:
+      213: 6084338443261095315
+    second: DiagramController_37
+  - first:
+      213: -2211218219572502164
+    second: DiagramController_38
+  - first:
+      213: 844259490537094698
+    second: DiagramController_39
+  - first:
+      213: 4630643157560129588
+    second: DiagramController_40
+  - first:
+      213: 462764242697743764
+    second: DiagramController_41
+  - first:
+      213: 6677578375547754671
+    second: DiagramController_42
+  - first:
+      213: -8236944449102883414
+    second: DiagramController_43
+  - first:
+      213: 2752442155060203532
+    second: DiagramController_44
+  - first:
+      213: -5674348393739433463
+    second: DiagramController_45
+  - first:
+      213: -3299768248810042338
+    second: DiagramController_46
+  - first:
+      213: -7412810335614874191
+    second: DiagramController_47
+  - first:
+      213: -413745587437798710
+    second: DiagramController_48
+  - first:
+      213: -5249074795897403953
+    second: DiagramController_49
+  - first:
+      213: -3155003405409746855
+    second: DiagramController_50
+  - first:
+      213: 7191931191131076573
+    second: DiagramController_51
+  - first:
+      213: 4625861135634839747
+    second: DiagramController_52
+  - first:
+      213: 648968721414575006
+    second: DiagramController_53
+  - first:
+      213: -4662449323825773791
+    second: DiagramController_54
+  - first:
+      213: 7871921056904259405
+    second: DiagramController_55
+  - first:
+      213: 4561384963358724890
+    second: DiagramController_56
+  - first:
+      213: -7299106073842897439
+    second: DiagramController_57
+  - first:
+      213: -5542912282486604861
+    second: DiagramController_58
+  - first:
+      213: -844160356174096965
+    second: DiagramController_59
+  - first:
+      213: 2161176927902041605
+    second: DiagramController_60
+  - first:
+      213: 2705982803192201
+    second: DiagramController_61
+  - first:
+      213: 3678377479165947846
+    second: DiagramController_62
+  - first:
+      213: 5120891853896161759
+    second: DiagramController_63
+  - first:
+      213: 8038622243090098544
+    second: DiagramController_64
+  - first:
+      213: -6877350626842875716
+    second: DiagramController_65
+  - first:
+      213: -1658033654353950167
+    second: DiagramController_66
+  - first:
+      213: -1826739523868201591
+    second: DiagramController_67
+  - first:
+      213: 2161120558290358132
+    second: DiagramController_68
+  - first:
+      213: 7970673701991538109
+    second: DiagramController_69
+  - first:
+      213: -2000716588291891192
+    second: DiagramController_70
+  - first:
+      213: 9148409385001810049
+    second: DiagramController_71
+  - first:
+      213: 8279008719234926788
+    second: DiagramController_72
+  - first:
+      213: -6936494104387202359
+    second: DiagramController_73
+  - first:
+      213: 8231270668839573160
+    second: DiagramController_74
+  - first:
+      213: 8520940843090416065
+    second: DiagramController_75
+  - first:
+      213: 177210202613080653
+    second: DiagramController_76
+  - first:
+      213: 6206577281881450260
+    second: DiagramController_77
+  - first:
+      213: -6719280372416006230
+    second: DiagramController_78
+  - first:
+      213: 1396498462745773749
+    second: DiagramController_79
+  - first:
+      213: -5413666736881114587
+    second: DiagramController_80
+  - first:
+      213: -4793768182814852823
+    second: DiagramController_81
+  - first:
+      213: -8438624948484597305
+    second: DiagramController_82
+  - first:
+      213: -186104832188169629
+    second: DiagramController_83
+  - first:
+      213: 8882053402833961546
+    second: DiagramController_84
+  - first:
+      213: -7016383679362203702
+    second: DiagramController_85
+  - first:
+      213: 2450837021921844353
+    second: DiagramController_86
+  - first:
+      213: -6782710137020504745
+    second: DiagramController_87
+  - first:
+      213: -7100162847686577856
+    second: DiagramController_88
+  - first:
+      213: 2661326799756915568
+    second: DiagramController_89
+  - first:
+      213: -3711673075469826792
+    second: DiagramController_90
+  - first:
+      213: -5050707489347530458
+    second: DiagramController_91
+  - first:
+      213: 5941310895616091076
+    second: DiagramController_92
+  - first:
+      213: -5627991600427426576
+    second: DiagramController_93
+  - first:
+      213: -3906848835293915185
+    second: DiagramController_94
+  - first:
+      213: 4302014856329035192
+    second: DiagramController_95
+  - first:
+      213: -2545547027974573694
+    second: DiagramController_96
+  - first:
+      213: 3867085197958244595
+    second: DiagramController_97
+  - first:
+      213: 4332177194228589721
+    second: DiagramController_98
+  - first:
+      213: -3387106146224812608
+    second: DiagramController_99
+  - first:
+      213: -6893900094721977280
+    second: DiagramController_100
+  - first:
+      213: -4463031940718174122
+    second: DiagramController_101
+  - first:
+      213: -25970015019700423
+    second: DiagramController_102
+  - first:
+      213: -7798578950787999169
+    second: DiagramController_103
+  - first:
+      213: -5704368606194974893
+    second: DiagramController_104
+  - first:
+      213: -7038701281709114331
+    second: DiagramController_105
+  - first:
+      213: -8295391225828598912
+    second: DiagramController_106
+  - first:
+      213: 7371228042348240509
+    second: DiagramController_107
+  - first:
+      213: -8305605792037951715
+    second: DiagramController_108
+  - first:
+      213: 5253680217743339297
+    second: DiagramController_109
+  - first:
+      213: 7401713921617133790
+    second: DiagramController_110
+  - first:
+      213: -7895158190567222444
+    second: DiagramController_111
+  - first:
+      213: 444075304759292399
+    second: DiagramController_112
+  - first:
+      213: -4104707206541973559
+    second: DiagramController_113
+  - first:
+      213: 1654758200637617692
+    second: DiagramController_114
+  - first:
+      213: -8307006647003882404
+    second: DiagramController_115
+  - first:
+      213: 769545450077561520
+    second: DiagramController_116
+  - first:
+      213: 5746513681249733044
+    second: DiagramController_117
+  - first:
+      213: 2988911587322003353
+    second: DiagramController_118
+  - first:
+      213: -4694266888447033605
+    second: DiagramController_119
+  - first:
+      213: 3135564692906283809
+    second: DiagramController_120
+  - first:
+      213: 302999679734189855
+    second: DiagramController_121
+  - first:
+      213: -8148331360660180137
+    second: DiagramController_122
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DiagramController_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0bc529a8fec4f00800000000000000
+      internalID: 1102519387239002348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b6c0b20c2b0c8b0800000000000000
+      internalID: -5133907036776666326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67905a6b7960fc020800000000000000
+      internalID: 2364115578066897270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa2d681289ff04a0800000000000000
+      internalID: -6624802189687838041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d981d51bcebf4bb0800000000000000
+      internalID: -4949527686003193384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 225
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865889224de386930800000000000000
+      internalID: 4136625338574210408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 158
+        width: 77
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9055bfbaab3029df0800000000000000
+      internalID: -175073335229852407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077249c132257e500800000000000000
+      internalID: 425399000566605680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe903f154b326fc90800000000000000
+      internalID: -7136477302146004497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97ce97eb8d65b170800000000000000
+      internalID: 8193575544724309919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24561eda1d32bf250800000000000000
+      internalID: 5979412313736832322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4066f71df99bcf370800000000000000
+      internalID: 8357759104558523908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03057f36a741d6060800000000000000
+      internalID: 6948232315998261296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd1f06d80b2fda10800000000000000
+      internalID: 1936313681743650254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c58e8c84a3c1f780800000000000000
+      internalID: -8650918297701808704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53df85a8c4f6bf0f0800000000000000
+      internalID: -1082148910923186891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_16
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53771e15ce2510630800000000000000
+      internalID: 3891482727964309301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdab1c83e84ec7c0800000000000000
+      internalID: -4049218872814096907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6844a06de5743a0800000000000000
+      internalID: -6681267248792566056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 184
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8286528b9a289e430800000000000000
+      internalID: 3812722224996378664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d019b231292b17f90800000000000000
+      internalID: -6957583608854114035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052aa3061086c9500800000000000000
+      internalID: 404312421675213392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_22
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd88464415623fd10800000000000000
+      internalID: 2158110776922245341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6080163b376ef92b0800000000000000
+      internalID: -5575484429056276474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c893414a9673ea0800000000000000
+      internalID: -5893125433956135926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_25
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b96b272aec784e0800000000000000
+      internalID: -1979386314101449852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cbb6ea041d5c280800000000000000
+      internalID: -9023576202632512404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_27
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bbf1afe0e3ce0d0800000000000000
+      internalID: -3392268185269978260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b528bea2e17740d0800000000000000
+      internalID: -3438654572066232906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296e98b7222c71680800000000000000
+      internalID: -8784339094805551470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0950d9a4451e240800000000000000
+      internalID: 4819225755701842169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_31
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9147738b46fb90e0800000000000000
+      internalID: -2261943583634931301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_32
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c498f5655f176b00800000000000000
+      internalID: 821659908661875911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcf1fae854fa9240800000000000000
+      internalID: 4799417015652711607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_34
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64025c9c16e2c080800000000000000
+      internalID: -9168512880816814995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa11a6aed43718e0800000000000000
+      internalID: -1722850201562965249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_36
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de46068116a61ac90800000000000000
+      internalID: -7160324967289035539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_37
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39da4d3f399ef6450800000000000000
+      internalID: 6084338443261095315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61628daebc2051e0800000000000000
+      internalID: -2211218219572502164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e37b7988967bb00800000000000000
+      internalID: 844259490537094698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_40
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438f6f7ea69534040800000000000000
+      internalID: 4630643157560129588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d60cc70a11c6600800000000000000
+      internalID: 462764242697743764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa89a5a37268bac50800000000000000
+      internalID: 6677578375547754671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_43
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5d89c2aae70bd80800000000000000
+      internalID: -8236944449102883414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c009c259e83a23620800000000000000
+      internalID: 2752442155060203532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a4a5b233aa041b0800000000000000
+      internalID: -5674348393739433463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c8098b24ed432d0800000000000000
+      internalID: -3299768248810042338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_47
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdc4564648602990800000000000000
+      internalID: -7412810335614874191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_48
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca72619494124af0800000000000000
+      internalID: -413745587437798710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5441fa84a8727b0800000000000000
+      internalID: -5249074795897403953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_50
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95087636e1d2734d0800000000000000
+      internalID: -3155003405409746855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd77b68505fdec360800000000000000
+      internalID: 7191931191131076573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_52
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8bcc9a13c523040800000000000000
+      internalID: 4625861135634839747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_53
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93514e1d99910900800000000000000
+      internalID: 648968721414575006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_54
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123ca1eea07ab4fb0800000000000000
+      internalID: -4662449323825773791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4722b87e7eae3d60800000000000000
+      internalID: 7871921056904259405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_56
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a131ec8f47b4d4f30800000000000000
+      internalID: 4561384963358724890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_57
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eda2bab2bd54ba90800000000000000
+      internalID: -7299106073842897439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb7c3d85ae9313b0800000000000000
+      internalID: -5542912282486604861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_59
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb596cce0a0f844f0800000000000000
+      internalID: -844160356174096965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_60
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5060f5c27fa0efd10800000000000000
+      internalID: 2161176927902041605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_61
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989a0c7b31d990000800000000000000
+      internalID: 2705982803192201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_62
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfab7314d83c0330800000000000000
+      internalID: 3678377479165947846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_63
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91cac6200111740800000000000000
+      internalID: 5120891853896161759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_64
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07960f2f65cee8f60800000000000000
+      internalID: 8038622243090098544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_65
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8683bea0ebe80a0800000000000000
+      internalID: -6877350626842875716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a079e0d2b7df8e0800000000000000
+      internalID: -1658033654353950167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_67
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d6baed41e16a6e0800000000000000
+      internalID: -1826739523868201591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_68
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fc0b992b7ddfd10800000000000000
+      internalID: 2161120558290358132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdd0c360858d9e60800000000000000
+      internalID: 7970673701991538109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80061aafcd60c34e0800000000000000
+      internalID: -2000716588291891192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_71
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188f1e48ddda5fe70800000000000000
+      internalID: 9148409385001810049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_72
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c80c5ae092f4e270800000000000000
+      internalID: 8279008719234926788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_73
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2d869fc5f9cbf90800000000000000
+      internalID: -6936494104387202359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_74
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6564aef095b3270800000000000000
+      internalID: 8231270668839573160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_75
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c195880d86704670800000000000000
+      internalID: 8520940843090416065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_76
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42e3598db3957200800000000000000
+      internalID: 177210202613080653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417ad8d6721322650800000000000000
+      internalID: 6206577281881450260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_78
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7b3eff91250c2a0800000000000000
+      internalID: -6719280372416006230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_79
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b64751f3fb516310800000000000000
+      internalID: 1396498462745773749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_80
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5226adf19caced4b0800000000000000
+      internalID: -5413666736881114587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_81
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92930c77c3d197db0800000000000000
+      internalID: -4793768182814852823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_82
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c993d0b15bf3ea80800000000000000
+      internalID: -8438624948484597305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_83
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362c07224a2da6df0800000000000000
+      internalID: -186104832188169629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_84
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42c7ffb284634b70800000000000000
+      internalID: 8882053402833961546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_85
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf74cfc73cc0ae90800000000000000
+      internalID: -7016383679362203702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_86
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c170e494f130220800000000000000
+      internalID: 2450837021921844353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_87
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755a3741119fed1a0800000000000000
+      internalID: -6782710137020504745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_88
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04137302287277d90800000000000000
+      internalID: -7100162847686577856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_89
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073fcb2cf9eeee420800000000000000
+      internalID: 2661326799756915568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_90
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8154d3ec00d7d7cc0800000000000000
+      internalID: -3711673075469826792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_91
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62119095c4848e9b0800000000000000
+      internalID: -5050707489347530458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_92
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3ea59f7c6c37250800000000000000
+      internalID: 5941310895616091076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc14a1357b55e1b0800000000000000
+      internalID: -5627991600427426576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_94
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc758250fa518c9c0800000000000000
+      internalID: -3906848835293915185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_95
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdf1f108b3d3bb30800000000000000
+      internalID: 4302014856329035192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_96
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281368607766cacd0800000000000000
+      internalID: -2545547027974573694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_97
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8e874bf75aaa530800000000000000
+      internalID: 3867085197958244595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_98
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9942b0e843cfe1c30800000000000000
+      internalID: 4332177194228589721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_99
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd4ab9d7e49ef0d0800000000000000
+      internalID: -3387106146224812608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_100
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0449019a362f350a0800000000000000
+      internalID: -6893900094721977280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650654898102012c0800000000000000
+      internalID: -4463031940718174122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_102
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f60ffa86cb3aff0800000000000000
+      internalID: -25970015019700423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_103
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a517d43c1e5c390800000000000000
+      internalID: -7798578950787999169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_104
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fbbd7c9f206d0b0800000000000000
+      internalID: -5704368606194974893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_105
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c34a71a72815e90800000000000000
+      internalID: -7038701281709114331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_106
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b189781a9d0ec80800000000000000
+      internalID: -8295391225828598912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_107
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e909e99dcdb4660800000000000000
+      internalID: 7371228042348240509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_108
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a621898f8cbc80800000000000000
+      internalID: -8305605792037951715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_109
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fa616a252d8e840800000000000000
+      internalID: 5253680217743339297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_110
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed08d03889b28b660800000000000000
+      internalID: 7401713921617133790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_111
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45399bdb473ce6290800000000000000
+      internalID: -7895158190567222444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_112
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe173b9032ca92600800000000000000
+      internalID: 444075304759292399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_113
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c764171b862907c0800000000000000
+      internalID: -4104707206541973559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_114
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c167b22f0d1e6f610800000000000000
+      internalID: 1654758200637617692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_115
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c568a877597bc80800000000000000
+      internalID: -8307006647003882404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_116
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b224667289fdaa00800000000000000
+      internalID: 769545450077561520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_117
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b900db2fb7bfbf40800000000000000
+      internalID: 5746513681249733044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_118
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f7063b04fba7920800000000000000
+      internalID: 2988911587322003353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_119
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe7c31e22d9adeb0800000000000000
+      internalID: -4694266888447033605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_120
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1239feaa973c38b20800000000000000
+      internalID: 3135564692906283809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_121
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f0d957a98743400800000000000000
+      internalID: 302999679734189855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagramController_122
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753bca79ccf4bee80800000000000000
+      internalID: -8148331360660180137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DiagramController_0: 1102519387239002348
+      DiagramController_1: -5133907036776666326
+      DiagramController_10: 5979412313736832322
+      DiagramController_100: -6893900094721977280
+      DiagramController_101: -4463031940718174122
+      DiagramController_102: -25970015019700423
+      DiagramController_103: -7798578950787999169
+      DiagramController_104: -5704368606194974893
+      DiagramController_105: -7038701281709114331
+      DiagramController_106: -8295391225828598912
+      DiagramController_107: 7371228042348240509
+      DiagramController_108: -8305605792037951715
+      DiagramController_109: 5253680217743339297
+      DiagramController_11: 8357759104558523908
+      DiagramController_110: 7401713921617133790
+      DiagramController_111: -7895158190567222444
+      DiagramController_112: 444075304759292399
+      DiagramController_113: -4104707206541973559
+      DiagramController_114: 1654758200637617692
+      DiagramController_115: -8307006647003882404
+      DiagramController_116: 769545450077561520
+      DiagramController_117: 5746513681249733044
+      DiagramController_118: 2988911587322003353
+      DiagramController_119: -4694266888447033605
+      DiagramController_12: 6948232315998261296
+      DiagramController_120: 3135564692906283809
+      DiagramController_121: 302999679734189855
+      DiagramController_122: -8148331360660180137
+      DiagramController_13: 1936313681743650254
+      DiagramController_14: -8650918297701808704
+      DiagramController_15: -1082148910923186891
+      DiagramController_16: 3891482727964309301
+      DiagramController_17: -4049218872814096907
+      DiagramController_18: -6681267248792566056
+      DiagramController_19: 3812722224996378664
+      DiagramController_2: 2364115578066897270
+      DiagramController_20: -6957583608854114035
+      DiagramController_21: 404312421675213392
+      DiagramController_22: 2158110776922245341
+      DiagramController_23: -5575484429056276474
+      DiagramController_24: -5893125433956135926
+      DiagramController_25: -1979386314101449852
+      DiagramController_26: -9023576202632512404
+      DiagramController_27: -3392268185269978260
+      DiagramController_28: -3438654572066232906
+      DiagramController_29: -8784339094805551470
+      DiagramController_3: -6624802189687838041
+      DiagramController_30: 4819225755701842169
+      DiagramController_31: -2261943583634931301
+      DiagramController_32: 821659908661875911
+      DiagramController_33: 4799417015652711607
+      DiagramController_34: -9168512880816814995
+      DiagramController_35: -1722850201562965249
+      DiagramController_36: -7160324967289035539
+      DiagramController_37: 6084338443261095315
+      DiagramController_38: -2211218219572502164
+      DiagramController_39: 844259490537094698
+      DiagramController_4: -4949527686003193384
+      DiagramController_40: 4630643157560129588
+      DiagramController_41: 462764242697743764
+      DiagramController_42: 6677578375547754671
+      DiagramController_43: -8236944449102883414
+      DiagramController_44: 2752442155060203532
+      DiagramController_45: -5674348393739433463
+      DiagramController_46: -3299768248810042338
+      DiagramController_47: -7412810335614874191
+      DiagramController_48: -413745587437798710
+      DiagramController_49: -5249074795897403953
+      DiagramController_5: 4136625338574210408
+      DiagramController_50: -3155003405409746855
+      DiagramController_51: 7191931191131076573
+      DiagramController_52: 4625861135634839747
+      DiagramController_53: 648968721414575006
+      DiagramController_54: -4662449323825773791
+      DiagramController_55: 7871921056904259405
+      DiagramController_56: 4561384963358724890
+      DiagramController_57: -7299106073842897439
+      DiagramController_58: -5542912282486604861
+      DiagramController_59: -844160356174096965
+      DiagramController_6: -175073335229852407
+      DiagramController_60: 2161176927902041605
+      DiagramController_61: 2705982803192201
+      DiagramController_62: 3678377479165947846
+      DiagramController_63: 5120891853896161759
+      DiagramController_64: 8038622243090098544
+      DiagramController_65: -6877350626842875716
+      DiagramController_66: -1658033654353950167
+      DiagramController_67: -1826739523868201591
+      DiagramController_68: 2161120558290358132
+      DiagramController_69: 7970673701991538109
+      DiagramController_7: 425399000566605680
+      DiagramController_70: -2000716588291891192
+      DiagramController_71: 9148409385001810049
+      DiagramController_72: 8279008719234926788
+      DiagramController_73: -6936494104387202359
+      DiagramController_74: 8231270668839573160
+      DiagramController_75: 8520940843090416065
+      DiagramController_76: 177210202613080653
+      DiagramController_77: 6206577281881450260
+      DiagramController_78: -6719280372416006230
+      DiagramController_79: 1396498462745773749
+      DiagramController_8: -7136477302146004497
+      DiagramController_80: -5413666736881114587
+      DiagramController_81: -4793768182814852823
+      DiagramController_82: -8438624948484597305
+      DiagramController_83: -186104832188169629
+      DiagramController_84: 8882053402833961546
+      DiagramController_85: -7016383679362203702
+      DiagramController_86: 2450837021921844353
+      DiagramController_87: -6782710137020504745
+      DiagramController_88: -7100162847686577856
+      DiagramController_89: 2661326799756915568
+      DiagramController_9: 8193575544724309919
+      DiagramController_90: -3711673075469826792
+      DiagramController_91: -5050707489347530458
+      DiagramController_92: 5941310895616091076
+      DiagramController_93: -5627991600427426576
+      DiagramController_94: -3906848835293915185
+      DiagramController_95: 4302014856329035192
+      DiagramController_96: -2545547027974573694
+      DiagramController_97: 3867085197958244595
+      DiagramController_98: 4332177194228589721
+      DiagramController_99: -3387106146224812608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
