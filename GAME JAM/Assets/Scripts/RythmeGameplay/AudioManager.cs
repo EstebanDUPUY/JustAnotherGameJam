@@ -65,7 +65,7 @@ public class AudioManager : MonoBehaviour
                 foreach (float b in bpmHistory) avgBpm += b;
                 avgBpm /= bpmHistory.Count;
 
-                Debug.Log("BPM instantané : " + avgBpm.ToString("F1"));
+               
                 FindBPM?.Invoke(avgBpm);
             }
 

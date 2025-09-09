@@ -46,6 +46,7 @@ public class StreakBonus : MonoBehaviour
 
     public void OnNoteSuccess()
     {
+        Debug.Log("I here bonus");
         if (bonusActive) return;
 
         currentStreak++;

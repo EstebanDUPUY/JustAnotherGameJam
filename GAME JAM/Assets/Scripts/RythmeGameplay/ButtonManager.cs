@@ -72,6 +72,7 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("Success!");
+        Debug.Log("OnNoteSuccess is null? " + (OnNoteSuccess == null));
         OnNoteSuccess?.Invoke();
         Destroy(tempoNoteObject);
     }

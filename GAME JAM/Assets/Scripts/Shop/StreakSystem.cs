@@ -33,13 +33,15 @@ public class StreakSystem : MonoBehaviour
 
     void OnDisable()
     {
-        ButtonManager.OnNoteSuccess -= HandleNoteSuccess;
-        ButtonManager.OnNoteFail -= HandleNoteFail;
+        //ButtonManager.OnNoteSuccess -= HandleNoteSuccess;
+        //ButtonManager.OnNoteFail -= HandleNoteFail;
     }
 
     void Awake()
     {
         // Crée l'action bonus (touche Espace)
+       
+
         bonusAction = new InputAction(type: InputActionType.Button, binding: "<Keyboard>/space");
         bonusAction.performed += OnBonus;
         bonusAction.Enable();
@@ -58,6 +60,7 @@ public class StreakSystem : MonoBehaviour
         currentStreak++;
         float progress = Mathf.Clamp01((float)currentStreak / streakToActivate);
         OnStreakProgress?.Invoke(progress);
+
 
         if (currentStreak >= streakToActivate)
         {
