@@ -6,7 +6,7 @@ using System;
 
 public class ButtonManager : MonoBehaviour
 {
-    private bool canActivateNote = false;
+    public bool canActivateNote = false;
     private GameObject tempoNoteObject;
     private NoteMovement tempoNote;
 
@@ -18,9 +18,11 @@ public class ButtonManager : MonoBehaviour
     public static event Action OnNoteSuccess;
     public static event Action OnNoteFail;
 
+    public bool missValue = false;
+
     private void Start()
     {
-            
+
     }
 
     void Update()
@@ -54,12 +56,14 @@ public class ButtonManager : MonoBehaviour
                 }
             }
             canActivateNote = false;
+            Debug.Log("Here Main Core");
         }
     }
 
     public void OnNote(InputAction.CallbackContext context)
     {
-        if (canActivateNote && context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
+        Debug.Log("Je suis ici dans le OnNote");
+        if ((canActivateNote || missValue) && context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
             if (tempoNote.type == DataNote.NoteType.SimpleNote)
                 ShortNoteActivate();
@@ -71,8 +75,13 @@ public class ButtonManager : MonoBehaviour
     private void ShortNoteActivate()
     {
         tempoNote.isValided = true;
-        SignalText?.Invoke("Success!");
-        OnNoteSuccess?.Invoke();
+        if (!missValue)
+            SignalText?.Invoke("Perfect!");
+        else if (missValue)
+            SignalText?.Invoke("Bad!");
+        Debug.Log("missValue = " + missValue);
+        missValue = false;
+        canActivateNote = false;
         Destroy(tempoNoteObject);
     }
 
@@ -80,23 +89,7 @@ public class ButtonManager : MonoBehaviour
     {
         tempoNote.isValided = true;
         SignalText?.Invoke("BOOOM!");
-        OnNoteFail?.Invoke();
+        canActivateNote = false;
         Destroy(tempoNoteObject);
-    }
-
-    private void LongNoteActivate(InputAction.CallbackContext context)
-    {
-        /*if (context.interaction is HoldInteraction)
-        {
-            tempoNote.longNoteEnter = true;
-            tempoNoteObject.transform.parent.Find("NoteLongBody").GetComponent<SpriteRenderer>().color = Color.black;
-        }
-
-        if (context.canceled)
-        {
-            if (tempoNote.longNoteEnter)
-                tempoNote.isLongValided = true;
-            Destroy(tempoNoteObject.transform.parent.gameObject);
-        }*/
     }
 }

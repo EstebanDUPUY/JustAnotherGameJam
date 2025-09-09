@@ -7,7 +7,6 @@ public class BossSpawnNote : MonoBehaviour
 {
 
     public static event Action<int, GameObject> spawnNote;
-    private float timeSpawn = 2f;
 
     private float bpm = 60f;
 
@@ -64,7 +63,7 @@ public class BossSpawnNote : MonoBehaviour
     
     IEnumerator SpawnNoteInRythm()
     {
-        while (true)
+        while (ready)
         {
             spawnNote?.Invoke(UnityEngine.Random.Range(0, 2), ChooseNote());
             yield return new WaitForSeconds(60f / bpm);
