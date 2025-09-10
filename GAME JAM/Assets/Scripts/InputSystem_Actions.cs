@@ -114,7 +114,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""name"": ""Attack"",
                     ""type"": ""Button"",
                     ""id"": ""6c2ab1b8-8984-453a-af3d-a3c78ae1679a"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -180,6 +180,24 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": ""Hold"",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Note_1_Hold"",
+                    ""type"": ""Button"",
+                    ""id"": ""42213c40-8647-4812-87d2-4815cf1c4938"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": ""Hold(duration=50)"",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Note_2_Hold1"",
+                    ""type"": ""Button"",
+                    ""id"": ""8dca3039-c43e-4d62-bc42-85b51c40004a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": ""Hold(duration=50)"",
                     ""initialStateCheck"": false
                 }
             ],
@@ -588,6 +606,39 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Note_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4a5a3b4d-373c-45ca-bc81-570cdc5dadef"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Note_2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5e90b709-8606-45dc-97c8-2da1afa7dcd1"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Note_1_Hold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cfe41906-ce7b-42e6-b21b-831a11062424"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Note_2_Hold1"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1185,6 +1236,8 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_Next = m_Player.FindAction("Next", throwIfNotFound: true);
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         m_Player_Note_2 = m_Player.FindAction("Note_2", throwIfNotFound: true);
+        m_Player_Note_1_Hold = m_Player.FindAction("Note_1_Hold", throwIfNotFound: true);
+        m_Player_Note_2_Hold1 = m_Player.FindAction("Note_2_Hold1", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1288,6 +1341,8 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Next;
     private readonly InputAction m_Player_Sprint;
     private readonly InputAction m_Player_Note_2;
+    private readonly InputAction m_Player_Note_1_Hold;
+    private readonly InputAction m_Player_Note_2_Hold1;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -1339,6 +1394,14 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Note_2".
         /// </summary>
         public InputAction @Note_2 => m_Wrapper.m_Player_Note_2;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Note_1_Hold".
+        /// </summary>
+        public InputAction @Note_1_Hold => m_Wrapper.m_Player_Note_1_Hold;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Note_2_Hold1".
+        /// </summary>
+        public InputAction @Note_2_Hold1 => m_Wrapper.m_Player_Note_2_Hold1;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1395,6 +1458,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Note_2.started += instance.OnNote_2;
             @Note_2.performed += instance.OnNote_2;
             @Note_2.canceled += instance.OnNote_2;
+            @Note_1_Hold.started += instance.OnNote_1_Hold;
+            @Note_1_Hold.performed += instance.OnNote_1_Hold;
+            @Note_1_Hold.canceled += instance.OnNote_1_Hold;
+            @Note_2_Hold1.started += instance.OnNote_2_Hold1;
+            @Note_2_Hold1.performed += instance.OnNote_2_Hold1;
+            @Note_2_Hold1.canceled += instance.OnNote_2_Hold1;
         }
 
         /// <summary>
@@ -1436,6 +1505,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Note_2.started -= instance.OnNote_2;
             @Note_2.performed -= instance.OnNote_2;
             @Note_2.canceled -= instance.OnNote_2;
+            @Note_1_Hold.started -= instance.OnNote_1_Hold;
+            @Note_1_Hold.performed -= instance.OnNote_1_Hold;
+            @Note_1_Hold.canceled -= instance.OnNote_1_Hold;
+            @Note_2_Hold1.started -= instance.OnNote_2_Hold1;
+            @Note_2_Hold1.performed -= instance.OnNote_2_Hold1;
+            @Note_2_Hold1.canceled -= instance.OnNote_2_Hold1;
         }
 
         /// <summary>
@@ -1806,6 +1881,20 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnNote_2(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Note_1_Hold" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnNote_1_Hold(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Note_2_Hold1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnNote_2_Hold1(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.

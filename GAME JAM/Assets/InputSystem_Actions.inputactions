@@ -28,7 +28,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -94,6 +94,24 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Note_1_Hold",
+                    "type": "Button",
+                    "id": "42213c40-8647-4812-87d2-4815cf1c4938",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold(duration=50)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Note_2_Hold1",
+                    "type": "Button",
+                    "id": "8dca3039-c43e-4d62-bc42-85b51c40004a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold(duration=50)",
                     "initialStateCheck": false
                 }
             ],
@@ -502,6 +520,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Note_2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a5a3b4d-373c-45ca-bc81-570cdc5dadef",
+                    "path": "<Keyboard>/r",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Note_2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e90b709-8606-45dc-97c8-2da1afa7dcd1",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Note_1_Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cfe41906-ce7b-42e6-b21b-831a11062424",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Note_2_Hold1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -37,7 +37,7 @@ public class BossSpawnNote : MonoBehaviour
     private GameObject ChooseNote()
     {
         GameObject tempo = null;
-        int random = UnityEngine.Random.Range(0, 3);
+        int random = UnityEngine.Random.Range(0, 2);
 
         switch (random)
         {
@@ -45,20 +45,10 @@ public class BossSpawnNote : MonoBehaviour
                 tempo = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
                 break;
             case 1:
-                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteBomb");
-                break;
-            case 2:
                 tempo = Resources.Load<GameObject>("Prefabs/Note/NoteTrick");
                 break;
         }
         return tempo;
-    }
-
-    IEnumerator WaitForReady()
-    {
-        yield return new WaitForSeconds(2f);
-        ready = true;
-        StartCoroutine(SpawnNoteInRythm());
     }
     
     IEnumerator SpawnNoteInRythm()
