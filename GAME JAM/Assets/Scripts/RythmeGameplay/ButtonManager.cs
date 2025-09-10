@@ -24,6 +24,8 @@ public class ButtonManager : MonoBehaviour
     public int id;
     public List<Transform> childZone;
 
+    private GameObject vfx;
+
     private void Start()
     {
         childZone = new List<Transform>();
@@ -33,6 +35,7 @@ public class ButtonManager : MonoBehaviour
             childZone.Add(child);
         }
 
+        vfx = Resources.Load<GameObject>("Prefabs/VFX/Water_Explosion 1");
     }
 
     void Update()
@@ -72,6 +75,8 @@ public class ButtonManager : MonoBehaviour
     {
         if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
+            Instantiate(vfx, transform.position, Quaternion.identity);
+
             if (tempoNoteObject == null)
             {
                 SignalText?.Invoke("Sois patient stp");
