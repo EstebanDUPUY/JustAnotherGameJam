@@ -19,6 +19,7 @@ public class ButtonManager : MonoBehaviour
 
     public static event Action<string> SignalText;
     public static event Action<int> AddScore;
+    public static event Action<bool> AddCombo;
 
     public bool missValue = false;
 
@@ -26,6 +27,8 @@ public class ButtonManager : MonoBehaviour
     public List<Transform> childZone;
 
     private GameObject vfx;
+
+    public bool perfectCombo = true;
 
     private void Start()
     {
@@ -36,7 +39,7 @@ public class ButtonManager : MonoBehaviour
             childZone.Add(child);
         }
 
-        vfx = Resources.Load<GameObject>("Prefabs/VFX/Water_Explosion 1");
+        vfx = Resources.Load<GameObject>("Prefabs/VFX/Water_WhiteTotal");
     }
 
     void Update()
@@ -67,22 +70,11 @@ public class ButtonManager : MonoBehaviour
             if (!other.GetComponent<NoteMovement>().isValided)
             {
                 SignalText?.Invoke("Miss!");
-                AudioManager.Instance.PlaySfx();
+                AudioManager.Instance.PlaySfx(AudioManager.SfxCode.miss);
+                perfectCombo = false;
+                AddCombo?.Invoke(false);
             }
         }
-
-        /*if (other.CompareTag("LongEnter") && !other.GetComponentInParent<NoteMovement>().isValided)
-        {
-            Destroy(other.gameObject.transform.parent.gameObject);
-            SignalText?.Invoke("Miss!");
-        }
-
-        if (other.CompareTag("LongEnter") && !other.GetComponentInParent<NoteMovement>().isValided)
-        {
-            Destroy(other.gameObject.transform.parent.gameObject);
-            SignalText?.Invoke("Miss!");
-            
-        }*/
     }
 
     public void OnNote(InputAction.CallbackContext context)
@@ -126,18 +118,27 @@ public class ButtonManager : MonoBehaviour
                 switch (tempoType)
                 {
                     case DataZoneCollider.ZoneType.PerfectZone:
-                        SignalText?.Invoke("PERFECT!");
+                        AudioManager.Instance.PlaySfx(AudioManager.SfxCode.perfect);
                         AddScore?.Invoke(100);
+                        AddCombo?.Invoke(true);
+                        SignalText?.Invoke("PERFECT!");
+                        perfectCombo = true;
                         find = true;
                         break;
                     case DataZoneCollider.ZoneType.GoodZone:
                         SignalText?.Invoke("Good!");
+                        perfectCombo = false;
+                        AddCombo?.Invoke(false);
+                        AudioManager.Instance.PlaySfx(AudioManager.SfxCode.good);
                         AddScore?.Invoke(50);
                         find = true;
                         break;
                     case DataZoneCollider.ZoneType.MissZone:
                         SignalText?.Invoke("Bad!");
+                        perfectCombo = false;
+                        AddCombo?.Invoke(false);
                         AddScore?.Invoke(10);
+                        AudioManager.Instance.PlaySfx(AudioManager.SfxCode.bad);
                         find = true;
                         break;
                 }

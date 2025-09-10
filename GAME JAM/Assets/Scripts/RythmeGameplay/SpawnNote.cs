@@ -33,7 +33,7 @@ public class SpawnNote : MonoBehaviour
 
     private void OnSpawnNote(int _id, GameObject notePrefab)
     {
-        Debug.Log($"OnSpawnNote called with _id: {_id}, notePrefab: {notePrefab}");
+        //Debug.Log($"OnSpawnNote called with _id: {_id}, notePrefab: {notePrefab}");
 
         if (_id != id || notePrefab == null) return;
 
@@ -44,7 +44,7 @@ public class SpawnNote : MonoBehaviour
         else
             tempo = Instantiate(notePrefab, transform.position, Quaternion.identity);
 
-        Debug.Log("Note spawned at position: " + transform.position);
+        //Debug.Log("Note spawned at position: " + transform.position);
 
         // Assign the target button
         Transform targetButton = (_id % 2 == 0) ? leftButton : rightButton;
