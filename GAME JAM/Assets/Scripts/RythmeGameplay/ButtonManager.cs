@@ -75,7 +75,8 @@ public class ButtonManager : MonoBehaviour
     {
         if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
-            Instantiate(vfx, transform.position, Quaternion.identity);
+            GameObject newVFX = Instantiate(vfx, transform.position, Quaternion.identity);
+            Destroy(newVFX, 1f);
 
             if (tempoNoteObject == null)
             {
