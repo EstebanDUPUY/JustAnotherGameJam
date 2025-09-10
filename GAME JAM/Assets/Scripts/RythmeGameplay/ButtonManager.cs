@@ -66,6 +66,12 @@ public class ButtonManager : MonoBehaviour
             }
             canActivateNote = false;
         }
+
+        if ((other.CompareTag("LongEnter") || other.CompareTag("LongExit")) && !other.GetComponentInParent<NoteMovement>().isValided)
+        {
+            Destroy(other.gameObject.transform.parent.gameObject);
+            SignalText?.Invoke("Miss!");
+        }
     }
 
     public void OnNote(InputAction.CallbackContext context)
@@ -119,9 +125,24 @@ public class ButtonManager : MonoBehaviour
 
                 if (find)
                 {
+                    if (tempoNote.type == DataNote.NoteType.LongNote && tempoNote.isValided)
+                    {
+                        Debug.Log("I'm here");
+                        tempoNote.isLongValided = true;
+                    }
+
                     tempoNote.isValided = true;
+
+                    if (tempoNote.type == DataNote.NoteType.LongNote && tempoNote.isLongValided)
+                    {
+                        Destroy(tempoNoteObject.transform.parent.gameObject);
+                    }
                     if (tempoNote.type != DataNote.NoteType.LongNote)
-                        Destroy(tempoNoteObject);
+                            Destroy(tempoNoteObject);
+
+
+
+                    
                     return;
                 }
             }
