@@ -24,6 +24,8 @@ public class ButtonManager : MonoBehaviour
     public int id;
     public List<Transform> childZone;
 
+    private GameObject vfx;
+
     private void Start()
     {
         childZone = new List<Transform>();
@@ -33,6 +35,7 @@ public class ButtonManager : MonoBehaviour
             childZone.Add(child);
         }
 
+        vfx = Resources.Load<GameObject>("Prefabs/VFX/Water_Explosion 1");
     }
 
     void Update()
@@ -66,18 +69,15 @@ public class ButtonManager : MonoBehaviour
             }
             canActivateNote = false;
         }
-
-        if ((other.CompareTag("LongEnter") || other.CompareTag("LongExit")) && !other.GetComponentInParent<NoteMovement>().isValided)
-        {
-            Destroy(other.gameObject.transform.parent.gameObject);
-            SignalText?.Invoke("Miss!");
-        }
     }
 
     public void OnNote(InputAction.CallbackContext context)
     {
         if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
+            GameObject newVFX = Instantiate(vfx, transform.position, Quaternion.identity);
+            Destroy(newVFX, 1f);
+
             if (tempoNoteObject == null)
             {
                 SignalText?.Invoke("Sois patient stp");
@@ -125,24 +125,9 @@ public class ButtonManager : MonoBehaviour
 
                 if (find)
                 {
-                    if (tempoNote.type == DataNote.NoteType.LongNote && tempoNote.isValided)
-                    {
-                        Debug.Log("I'm here");
-                        tempoNote.isLongValided = true;
-                    }
-
                     tempoNote.isValided = true;
-
-                    if (tempoNote.type == DataNote.NoteType.LongNote && tempoNote.isLongValided)
-                    {
-                        Destroy(tempoNoteObject.transform.parent.gameObject);
-                    }
                     if (tempoNote.type != DataNote.NoteType.LongNote)
-                            Destroy(tempoNoteObject);
-
-
-
-                    
+                        Destroy(tempoNoteObject);
                     return;
                 }
             }

@@ -13,7 +13,6 @@ public class NoteMovement : MonoBehaviour
 
     public DataNote.NoteType type;
     public bool isValided = false;
-    public bool isLongValided = false;
 
 
     void Awake()
