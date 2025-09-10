@@ -15,6 +15,10 @@ public class NoteMovement : MonoBehaviour
     public bool isValided = false;
 
 
+    void Awake()
+    {
+        Destroy(gameObject, 5);
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

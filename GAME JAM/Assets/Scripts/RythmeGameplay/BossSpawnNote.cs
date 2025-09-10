@@ -16,7 +16,6 @@ public class BossSpawnNote : MonoBehaviour
     {
         //StartCoroutine(WaitForReady());
         StartCoroutine(SpawnNoteInRythm());
-        Debug.Log("Here");
     }
 
     void OnEnable()

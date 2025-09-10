@@ -1,27 +1,20 @@
 using UnityEngine;
 
-public class MissZone : MonoBehaviour
+public class ZoneButton : MonoBehaviour
 {
-    private ButtonManager buttonM;
+    public DataZoneCollider.ZoneType type;
 
-    void Start()
-    {
-        buttonM = GetComponentInParent<ButtonManager>();
-    }
+    public int id;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Note"))
+        if (id == 1)
         {
-            buttonM.missValue = true;
+            if (collision.CompareTag("Note"))
+            {
+                Debug.Log("NOW");
+            }
         }
     }
 
-        void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Note"))
-        {
-            buttonM.missValue = false;
-        }
-    }
 }

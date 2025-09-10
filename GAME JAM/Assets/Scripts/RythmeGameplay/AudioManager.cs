@@ -1,11 +1,14 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 public class AudioManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public AudioSource music;
+
+    public AudioClip clip;
 
     public static event Action<float> FindBPM;
     public float bpm = 80f;
@@ -19,11 +22,18 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        bpm = UniBpmAnalyzer.AnalyzeBpm(music.clip);
+        //bpm = UniBpmAnalyzer.AnalyzeBpm(clip);
+
+       
+
+        /*if (bpm > 200)
+            bpm /= 2;
+        if (bpm < 60)
+            bpm *= 2;*/
+
+        Debug.Log("bpm = " + bpm);
 
         FindBPM?.Invoke(bpm);
-        Debug.Log(bpm);
-
         //music.Play(0);
     }
 
@@ -39,7 +49,6 @@ public class AudioManager : MonoBehaviour
 
     private void PlaySong()
     {
-        Debug.Log("Here Song");
         music.Play(0);
     }
 }

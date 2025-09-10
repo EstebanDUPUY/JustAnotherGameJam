@@ -23,6 +23,8 @@ public class UpdateInfoText : MonoBehaviour
 
     private void OnUpdateText(string _text)
     {
+        if (_text == "PERFECT!")
+            textMP.fontSize = 50;
         textMP.text = _text;
     }
 }

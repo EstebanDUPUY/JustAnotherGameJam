@@ -15,7 +15,7 @@ public class TriggerSwitchLane : MonoBehaviour
                     tempoY = 4;
                 }
 
-                collision.transform.position = new Vector3(transform.position.x, tempoY, 0);
+                collision.transform.position = new Vector3(collision.transform.position.x, tempoY, 0);
                 collision.GetComponent<NoteMovement>().type = DataNote.NoteType.SimpleNote;
                 collision.GetComponent<SpriteRenderer>().color = Color.white;
             }
