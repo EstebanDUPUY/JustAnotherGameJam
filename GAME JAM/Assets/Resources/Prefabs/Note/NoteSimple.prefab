@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2856550651722319676}
   - component: {fileID: 2618744414010868555}
   - component: {fileID: 4415621762837083638}
+  - component: {fileID: 3001508754146286746}
   m_Layer: 0
   m_Name: NoteSimple
   m_TagString: Note
@@ -154,3 +155,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3001508754146286746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5954670570111868472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4774cba5fee0b08429fdee81b722a197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NoteScaler
+  targetButton: {fileID: 0}
+  minScale: 0.1
+  maxScale: 2

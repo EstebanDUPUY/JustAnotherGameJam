@@ -9,6 +9,7 @@ TagManager:
   - LongExit
   - ZoneSwitchLane
   - TriggerMusic
+  - Button
   layers:
   - Default
   - TransparentFX
