@@ -8,6 +8,7 @@ TagManager:
   - LongEnter
   - LongExit
   - ZoneSwitchLane
+  - TriggerMusic
   layers:
   - Default
   - TransparentFX

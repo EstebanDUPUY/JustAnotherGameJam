@@ -3,10 +3,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 using System;
+using System.Data.Common;
+using Unity.VisualScripting;
+using System.Collections.Generic;
 
 public class ButtonManager : MonoBehaviour
 {
-    private bool canActivateNote = false;
+    public bool canActivateNote = false;
     private GameObject tempoNoteObject;
     private NoteMovement tempoNote;
 
@@ -15,12 +18,24 @@ public class ButtonManager : MonoBehaviour
     private Bounds b;
 
     public static event Action<string> SignalText;
-    public static event Action OnNoteSuccess;
-    public static event Action OnNoteFail;
+
+    public bool missValue = false;
+
+    public int id;
+    public List<Transform> childZone;
+
+    private GameObject vfx;
 
     private void Start()
     {
-            
+        childZone = new List<Transform>();
+
+        foreach (Transform child in transform)
+        {
+            childZone.Add(child);
+        }
+
+        vfx = Resources.Load<GameObject>("Prefabs/VFX/Water_Explosion 1");
     }
 
     void Update()
@@ -32,9 +47,14 @@ public class ButtonManager : MonoBehaviour
     {
         if (other.CompareTag("Note"))
         {
-            canActivateNote = true;
             tempoNoteObject = other.gameObject;
             tempoNote = other.gameObject.GetComponent<NoteMovement>();
+        }
+
+        if (other.CompareTag("LongEnter") || other.CompareTag("LongExit"))
+        {
+            tempoNoteObject = other.gameObject;
+            tempoNote = other.gameObject.GetComponentInParent<NoteMovement>();
         }
     }
 
@@ -45,13 +65,7 @@ public class ButtonManager : MonoBehaviour
 
             if (!other.GetComponent<NoteMovement>().isValided)
             {
-                if (tempoNote.type == DataNote.NoteType.BombNote)
-                    SignalText?.Invoke("SAFE!");
-                else
-                {
-                    SignalText?.Invoke("Missed!");
-                    OnNoteFail?.Invoke();
-                }
+                SignalText?.Invoke("Miss!");
             }
             canActivateNote = false;
         }
@@ -59,45 +73,78 @@ public class ButtonManager : MonoBehaviour
 
     public void OnNote(InputAction.CallbackContext context)
     {
-        if (canActivateNote && context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
+        if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
         {
-            if (tempoNote.type == DataNote.NoteType.SimpleNote)
-                ShortNoteActivate();
-            if (tempoNote.type == DataNote.NoteType.BombNote)
-                BombNoteActivate();
+            GameObject newVFX = Instantiate(vfx, transform.position, Quaternion.identity);
+            Destroy(newVFX, 1f);
+
+            if (tempoNoteObject == null)
+            {
+                SignalText?.Invoke("Sois patient stp");
+                return;
+            }
+
+            CheckIfInZone();
+
+            /*if (GetComponent<BoxCollider2D>().OverlapPoint(tempoNoteObject.transform.position))
+                {
+                    if (tempoNote.type == DataNote.NoteType.SimpleNote)
+                        ShortNoteActivate();
+                    if (tempoNote.type == DataNote.NoteType.BombNote)
+                        BombNoteActivate();
+                }*/
+            }
+    }
+
+    private void CheckIfInZone()
+    {
+        bool find = false;
+
+        foreach (Transform child in childZone)
+        {
+            BoxCollider2D tempoBox = child.GetComponent<BoxCollider2D>();
+            DataZoneCollider.ZoneType tempoType = child.GetComponent<ZoneButton>().type;
+            if (tempoBox.bounds.Intersects(tempoNoteObject.GetComponent<BoxCollider2D>().bounds))
+            {
+
+                switch (tempoType)
+                {
+                    case DataZoneCollider.ZoneType.PerfectZone:
+                        SignalText?.Invoke("PERFECT!");
+                        find = true;
+                        break;
+                    case DataZoneCollider.ZoneType.GoodZone:
+                        SignalText?.Invoke("Good!");
+                        find = true;
+                        break;
+                    case DataZoneCollider.ZoneType.MissZone:
+                        SignalText?.Invoke("Bad!");
+                        find = true;
+                        break;
+                }
+
+                if (find)
+                {
+                    tempoNote.isValided = true;
+                    if (tempoNote.type != DataNote.NoteType.LongNote)
+                        Destroy(tempoNoteObject);
+                    return;
+                }
+            }
         }
     }
 
     private void ShortNoteActivate()
     {
         tempoNote.isValided = true;
-        SignalText?.Invoke("Success!");
-        Debug.Log("OnNoteSuccess is null? " + (OnNoteSuccess == null));
-        OnNoteSuccess?.Invoke();
+        if (canActivateNote)
+            SignalText?.Invoke("Perfect!");
+        else
+            SignalText?.Invoke("Bad!");
+        Debug.Log("missValue = " + missValue);
+        missValue = false;
+        canActivateNote = false;
         Destroy(tempoNoteObject);
     }
 
-    private void BombNoteActivate()
-    {
-        tempoNote.isValided = true;
-        SignalText?.Invoke("BOOOM!");
-        OnNoteFail?.Invoke();
-        Destroy(tempoNoteObject);
-    }
-
-    private void LongNoteActivate(InputAction.CallbackContext context)
-    {
-        /*if (context.interaction is HoldInteraction)
-        {
-            tempoNote.longNoteEnter = true;
-            tempoNoteObject.transform.parent.Find("NoteLongBody").GetComponent<SpriteRenderer>().color = Color.black;
-        }
-
-        if (context.canceled)
-        {
-            if (tempoNote.longNoteEnter)
-                tempoNote.isLongValided = true;
-            Destroy(tempoNoteObject.transform.parent.gameObject);
-        }*/
-    }
 }

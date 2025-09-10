@@ -7,6 +7,8 @@ public class SpawnNote : MonoBehaviour
 
     private float bpmFind;
 
+    public GameObject SaveLane;
+
     void OnEnable()
     {
         BossSpawnNote.spawnNote += OnSpawnNote;
@@ -29,7 +31,7 @@ public class SpawnNote : MonoBehaviour
         if (_id == id)
         {
             GameObject tempo;
-            tempo = Instantiate(note, this.transform.position, Quaternion.identity);
+            tempo = Instantiate(note, this.transform.position, Quaternion.identity, SaveLane.transform);
             //tempo.GetComponent<NoteMovement>().beatTempo = bpmFind;
             
         }

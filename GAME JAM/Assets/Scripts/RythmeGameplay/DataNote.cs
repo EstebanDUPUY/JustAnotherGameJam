@@ -10,6 +10,19 @@ public class DataNote : MonoBehaviour
         SimpleNote,
         BombNote,
         HoldNote,
-        TrickNote
-   }
+        TrickNote,
+        LongNote
+    }
+
+    void Start()
+    {
+        if (!Instance)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 }

@@ -7,12 +7,14 @@ public class BossSpawnNote : MonoBehaviour
 {
 
     public static event Action<int, GameObject> spawnNote;
-    private float timeSpawn = 2f;
 
-    private float bpm;
+    private float bpm = 60f;
+
+    private bool ready = true;
 
     void Start()
     {
+        //StartCoroutine(WaitForReady());
         StartCoroutine(SpawnNoteInRythm());
     }
 
@@ -51,13 +53,21 @@ public class BossSpawnNote : MonoBehaviour
         }
         return tempo;
     }
+
+    IEnumerator WaitForReady()
+    {
+        yield return new WaitForSeconds(2f);
+        ready = true;
+        StartCoroutine(SpawnNoteInRythm());
+    }
     
     IEnumerator SpawnNoteInRythm()
     {
-        while (true)
+        while (ready)
         {
-            spawnNote?.Invoke(UnityEngine.Random.Range(0,2), ChooseNote());
-            yield return new WaitForSeconds(bpm / 60);
+            spawnNote?.Invoke(UnityEngine.Random.Range(0, 2), ChooseNote());
+            yield return new WaitForSeconds(60f / bpm);
+            
         }
     }
 
