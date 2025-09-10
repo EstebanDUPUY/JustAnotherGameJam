@@ -79,6 +79,11 @@ public class AudioManager : MonoBehaviour
         TriggerMusic.MusicOn -= PlaySong;
     }
 
+    public AudioSource GetAudio()
+    {
+        return sources[0];
+    }
+
     public void PlaySfx(SfxCode _code)
     {
         if (_code == SfxCode.miss)

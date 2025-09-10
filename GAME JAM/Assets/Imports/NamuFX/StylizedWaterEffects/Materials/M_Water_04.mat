@@ -114,7 +114,7 @@ Material:
     - _Distortion_Pow: 0.1
     - _DstBlend: 10
     - _Edge: 0.45
-    - _Edge_Dissolve_Value: 1
+    - _Edge_Dissolve_Value: 0
     - _Inner_Darken: 1
     - _Intensity: 5.3
     - _MainTexRotation: 0

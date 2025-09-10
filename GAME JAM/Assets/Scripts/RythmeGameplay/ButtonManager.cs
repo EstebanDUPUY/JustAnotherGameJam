@@ -39,7 +39,7 @@ public class ButtonManager : MonoBehaviour
             childZone.Add(child);
         }
 
-        vfx = Resources.Load<GameObject>("Prefabs/VFX/Water_WhiteTotal");
+        vfx = Resources.Load<GameObject>("Prefabs/VFX/highlight");
     }
 
     void Update()
@@ -71,6 +71,7 @@ public class ButtonManager : MonoBehaviour
             {
                 SignalText?.Invoke("Miss!");
                 AudioManager.Instance.PlaySfx(AudioManager.SfxCode.miss);
+                DataRythmeScore.Instance.miss += 1;
                 perfectCombo = false;
                 AddCombo?.Invoke(false);
             }
@@ -122,11 +123,13 @@ public class ButtonManager : MonoBehaviour
                         AddScore?.Invoke(100);
                         AddCombo?.Invoke(true);
                         SignalText?.Invoke("PERFECT!");
+                        DataRythmeScore.Instance.perfect += 1;
                         perfectCombo = true;
                         find = true;
                         break;
                     case DataZoneCollider.ZoneType.GoodZone:
                         SignalText?.Invoke("Good!");
+                        DataRythmeScore.Instance.good += 1;
                         perfectCombo = false;
                         AddCombo?.Invoke(false);
                         AudioManager.Instance.PlaySfx(AudioManager.SfxCode.good);
@@ -135,6 +138,7 @@ public class ButtonManager : MonoBehaviour
                         break;
                     case DataZoneCollider.ZoneType.MissZone:
                         SignalText?.Invoke("Bad!");
+                        DataRythmeScore.Instance.bad += 1;
                         perfectCombo = false;
                         AddCombo?.Invoke(false);
                         AddScore?.Invoke(10);
