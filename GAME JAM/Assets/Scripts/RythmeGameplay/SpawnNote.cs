@@ -1,41 +1,57 @@
 using UnityEngine;
-using System.Collections;
 
 public class SpawnNote : MonoBehaviour
 {
-    [SerializeField] private int id;
+    [SerializeField] private int id; // 0 or 1 to match BossSpawnNote
 
-    private float bpmFind;
+    public GameObject SaveLane; // optional, can leave null
+    private Transform leftButton;
+    private Transform rightButton;
 
-    public GameObject SaveLane;
+    void Awake()
+    {
+        // Automatically find buttons in the scene by name
+        GameObject lb = GameObject.Find("Bouton1");
+        GameObject rb = GameObject.Find("Bouton2");
+
+        if (lb == null || rb == null)
+            Debug.LogError("Bouton1 or Bouton2 not found in the scene!");
+
+        leftButton = lb?.transform;
+        rightButton = rb?.transform;
+    }
 
     void OnEnable()
     {
         BossSpawnNote.spawnNote += OnSpawnNote;
-        //AudioManager.FindBPM += ChangeBPMOnRunTime;
     }
 
     void OnDisable()
     {
         BossSpawnNote.spawnNote -= OnSpawnNote;
-        //AudioManager.FindBPM -= ChangeBPMOnRunTime;
     }
 
-    /*private void ChangeBPMOnRunTime(float _bpm)
+    private void OnSpawnNote(int _id, GameObject notePrefab)
     {
-        bpmFind = _bpm;
-    }*/
+        Debug.Log($"OnSpawnNote called with _id: {_id}, notePrefab: {notePrefab}");
 
-    private void OnSpawnNote(int _id, GameObject note)
-    {
-        if (_id == id)
-        {
-            GameObject tempo;
-            tempo = Instantiate(note, this.transform.position, Quaternion.identity, SaveLane.transform);
-            //tempo.GetComponent<NoteMovement>().beatTempo = bpmFind;
-            
-        }
+        if (_id != id || notePrefab == null) return;
+
+        // Instantiate note (as child of SaveLane if assigned)
+        GameObject tempo;
+        if (SaveLane != null)
+            tempo = Instantiate(notePrefab, transform.position, Quaternion.identity, SaveLane.transform);
+        else
+            tempo = Instantiate(notePrefab, transform.position, Quaternion.identity);
+
+        Debug.Log("Note spawned at position: " + transform.position);
+
+        // Assign the target button
+        Transform targetButton = (_id % 2 == 0) ? leftButton : rightButton;
+
+        NoteScaler scaler = tempo.GetComponent<NoteScaler>();
+        if (scaler != null)
+            scaler.SetTargetButton(targetButton);
     }
-
-
 }
+

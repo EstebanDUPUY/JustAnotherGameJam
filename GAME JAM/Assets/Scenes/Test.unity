@@ -413,7 +413,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 340683154}
-  - component: {fileID: 340683155}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -438,19 +437,6 @@ Transform:
   - {fileID: 1953132479}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &340683155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340683153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8469e49ed78f94ca712fd041b0978c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayVFX
-  vfx: {fileID: 0}
 --- !u!1 &408860603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +1837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNote
   id: 1
   SaveLane: {fileID: 1064641328}
+  lol: {fileID: 0}
 --- !u!4 &1501378374
 Transform:
   m_ObjectHideFlags: 0
@@ -2007,6 +1994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNote
   id: 0
   SaveLane: {fileID: 1064641328}
+  lol: {fileID: 0}
 --- !u!4 &1726015999
 Transform:
   m_ObjectHideFlags: 0
