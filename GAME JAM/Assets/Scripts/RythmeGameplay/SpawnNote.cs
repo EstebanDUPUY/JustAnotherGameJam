@@ -12,28 +12,20 @@ public class SpawnNote : MonoBehaviour
     void OnEnable()
     {
         BossSpawnNote.spawnNote += OnSpawnNote;
-        //AudioManager.FindBPM += ChangeBPMOnRunTime;
     }
 
     void OnDisable()
     {
         BossSpawnNote.spawnNote -= OnSpawnNote;
-        //AudioManager.FindBPM -= ChangeBPMOnRunTime;
     }
 
-    /*private void ChangeBPMOnRunTime(float _bpm)
-    {
-        bpmFind = _bpm;
-    }*/
 
     private void OnSpawnNote(int _id, GameObject note)
     {
         if (_id == id)
         {
             GameObject tempo;
-            tempo = Instantiate(note, this.transform.position, Quaternion.identity, SaveLane.transform);
-            //tempo.GetComponent<NoteMovement>().beatTempo = bpmFind;
-            
+            tempo = Instantiate(note, this.transform.position, Quaternion.identity, SaveLane.transform);         
         }
     }
 
