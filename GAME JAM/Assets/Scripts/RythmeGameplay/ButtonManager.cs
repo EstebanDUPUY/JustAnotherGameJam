@@ -78,24 +78,24 @@ public class ButtonManager : MonoBehaviour
 
     public void OnNote(InputAction.CallbackContext context)
     {
-        if (tempoNoteObject == null)
+        if (context.started)
         {
-            //SignalText?.Invoke("Sois patient stp");
-            return;
-        }
+            if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started && tempoNoteObject == null)
+            {
+                SignalText?.Invoke("Too Soon!");
+                perfectCombo = false;
+                AddCombo?.Invoke(false);
+                return;
+            }
 
 
-        if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
+            if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
             {
                 GameObject newVFX = Instantiate(vfx, transform.position, Quaternion.identity);
                 Destroy(newVFX, 1f);
                 CheckIfInZone();
             }
-
-    }
-
-    public void OnNoteLong(InputAction.CallbackContext context)
-    {
+        }
 
     }
 
