@@ -934,7 +934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &537652144
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2065,7 +2065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1451645590
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2287,7 +2287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1604489250}
   m_Layer: 5
-  m_Name: OnGameUI
+  m_Name: InGameUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2333,7 +2333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1696322539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3222,7 +3222,7 @@ Tilemap:
       - {fileID: 9648326, guid: 34066040c08e1a545ad29b48c8ce5106, type: 3}
       - {fileID: 307491260, guid: 34066040c08e1a545ad29b48c8ce5106, type: 3}
       - {fileID: 597935750, guid: 34066040c08e1a545ad29b48c8ce5106, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: -4, z: 0}
