@@ -23,7 +23,7 @@ public class ScoreResultManager : MonoBehaviour
     {
         resultScreen = transform.Find("ScoreResult").gameObject;
         judgeScreen = transform.Find("JudgeText").gameObject;
-        gameUIScreen = transform.Find("OnGameUI").gameObject;
+        gameUIScreen = transform.Find("InGameUI").gameObject;
         allButtons = transform.Find("AllButtons").gameObject;
     }
 
