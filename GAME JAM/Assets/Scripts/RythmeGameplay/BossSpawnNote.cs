@@ -9,7 +9,7 @@ public class BossSpawnNote : MonoBehaviour
     public static event Action<int, GameObject> spawnNote;
     public static event Action endMusic;
 
-    private float bpm = 60f;
+    //private float bpm = 60f;
 
     public bool isLevelPlaying = false;
 
@@ -18,6 +18,7 @@ public class BossSpawnNote : MonoBehaviour
     void Start()
     {
         StartCoroutine(SpawnNoteInRythm());
+        //StartCoroutine(WaitCooldown());
     }
 
     void OnEnable()
@@ -40,7 +41,7 @@ public class BossSpawnNote : MonoBehaviour
 
     private void ChangeBPMOnRunTime(float _bpm)
     {
-        bpm = _bpm;
+        //bpm = _bpm;
     }
 
     void Update()
@@ -77,7 +78,7 @@ public class BossSpawnNote : MonoBehaviour
         while (ready)
         {
             spawnNote?.Invoke(UnityEngine.Random.Range(0, 2), ChooseNote());
-            yield return new WaitForSeconds(60f / bpm);
+            yield return new WaitForSeconds(60f / AudioManager.Instance.bpm);
         }
     }
 

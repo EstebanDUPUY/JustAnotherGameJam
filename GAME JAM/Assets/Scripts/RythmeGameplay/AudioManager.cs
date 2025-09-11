@@ -19,9 +19,9 @@ public class AudioManager : MonoBehaviour
 
     private AudioSource[] sources;
 
-    private AudioClip clipHerbal;
-    private AudioClip clipNoel;
-    private AudioClip clipEpic;
+    private AudioClip clipLevel1;
+    private AudioClip clipLevel2;
+    //private AudioClip clipEpic;
     private AudioClip sfxMissNote;
     private AudioClip sfxBadNote;
     private AudioClip sfxGoodNote;
@@ -30,6 +30,8 @@ public class AudioManager : MonoBehaviour
     public static event Action<float> FindBPM;
     public float bpm;
     private float saveBpm;
+
+    [HideInInspector] public float extraSpeedNote = 0;
 
     private DataSongs.SongName currentSong;
 
@@ -53,16 +55,16 @@ public class AudioManager : MonoBehaviour
 
 
 
-        clipHerbal = Resources.Load<AudioClip>("Musics/herbal tea - Artificial.Music_130");
-        clipNoel = Resources.Load<AudioClip>("Musics/Noel_S7_80bpm");
-        clipEpic = Resources.Load<AudioClip>("Musics/Epic_120");
+        clipLevel1 = Resources.Load<AudioClip>("Musics/FinalMusic/SousOcean_99bpm");
+        clipLevel2 = Resources.Load<AudioClip>("Musics/FinalMusic/Epic_120");
+        //clipEpic = Resources.Load<AudioClip>("Musics/Epic_120");
         sfxMissNote = Resources.Load<AudioClip>("SFX/classic_hurt");
         sfxBadNote = Resources.Load<AudioClip>("Musics/Esteban/clean-whoosh-382726");
         sfxGoodNote = Resources.Load<AudioClip>("Musics/Esteban/simple-whoosh-382724");
         sfxPerfectNote = Resources.Load<AudioClip>("Musics/Esteban/whoosh-effect-382717");
 
         if (!sources[0].clip)
-            sources[0].clip = clipEpic;
+            sources[0].clip = clipLevel2;
 
         FindBPM?.Invoke(bpm);
     }
@@ -89,12 +91,14 @@ public class AudioManager : MonoBehaviour
         switch (currentSong)
         {
             case DataSongs.SongName.Level1:
-                bpm = 80;
-                sources[0].clip = clipNoel;
+                bpm = 99;
+                extraSpeedNote = 0;
+                sources[0].clip = clipLevel1;
                 break;
             case DataSongs.SongName.Level2:
                 bpm = 120;
-                sources[0].clip = clipEpic;
+                extraSpeedNote = 10;
+                sources[0].clip = clipLevel2;
                 break;
             default:
                 break;
