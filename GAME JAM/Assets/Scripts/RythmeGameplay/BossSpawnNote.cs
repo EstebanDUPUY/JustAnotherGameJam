@@ -2,12 +2,16 @@ using UnityEngine;
 using System;
 using System.Collections;
 using UnityEngine.Rendering.Universal;
+using Unity.Mathematics;
 
 public class BossSpawnNote : MonoBehaviour
 {
 
     public static event Action<int, GameObject> spawnNote;
     public static event Action endMusic;
+
+    private GameObject simpleNote;
+    private GameObject trickNote;
 
     //private float bpm = 60f;
 
@@ -19,6 +23,9 @@ public class BossSpawnNote : MonoBehaviour
     {
         StartCoroutine(SpawnNoteInRythm());
         //StartCoroutine(WaitCooldown());
+
+        simpleNote = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
+        trickNote = Resources.Load<GameObject>("Prefabs/Note/NoteTrick");
     }
 
     void OnEnable()
@@ -64,20 +71,55 @@ public class BossSpawnNote : MonoBehaviour
         switch (random)
         {
             case 0:
-                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
+                tempo = simpleNote;
                 break;
             case 1:
-                tempo = Resources.Load<GameObject>("Prefabs/Note/NoteTrick");
+                tempo = trickNote;
                 break;
         }
         return tempo;
     }
 
+    private int ChooseLane()
+    {
+        return UnityEngine.Random.Range(0, 2);
+    }
+
+    private bool isDouble()
+    {
+        if (UnityEngine.Random.Range(0, 4) == 3)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
     IEnumerator SpawnNoteInRythm()
     {
+        int laneId = 0;
+        int laneIdTempo = 0;
+        GameObject noteChosen = null;
         while (ready)
         {
-            spawnNote?.Invoke(UnityEngine.Random.Range(0, 2), ChooseNote());
+            laneId = ChooseLane();
+            
+            noteChosen = ChooseNote();
+
+            if (isDouble())
+            {
+                noteChosen = simpleNote;
+
+                if (laneId == 0)
+                    laneIdTempo = 1;
+                else if (laneId == 1)
+                    laneIdTempo = 0;
+
+                spawnNote?.Invoke(laneIdTempo, noteChosen);
+            }
+
+            spawnNote?.Invoke(laneId, noteChosen);
+
             yield return new WaitForSeconds(60f / AudioManager.Instance.bpm);
         }
     }

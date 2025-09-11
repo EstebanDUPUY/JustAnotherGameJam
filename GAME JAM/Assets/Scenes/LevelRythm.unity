@@ -2060,7 +2060,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNote
   id: 1
-  SaveLane: {fileID: 1064641328}
 --- !u!4 &1501378374
 Transform:
   m_ObjectHideFlags: 0
@@ -2448,7 +2447,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnNote
   id: 0
-  SaveLane: {fileID: 1064641328}
 --- !u!4 &1726015999
 Transform:
   m_ObjectHideFlags: 0

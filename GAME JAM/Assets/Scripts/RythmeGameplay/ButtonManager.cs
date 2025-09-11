@@ -67,9 +67,10 @@ public class ButtonManager : MonoBehaviour
         if (other.CompareTag("Note"))
         {
 
-            if (!other.GetComponent<NoteMovement>().isValided)
+            if (!other.GetComponent<NoteMovement>().isValided && !other.GetComponent<NoteMovement>().isAlreadyMissed)
             {
                 SignalText?.Invoke("Miss!");
+                other.GetComponent<NoteMovement>().isAlreadyMissed = true;
                 AudioManager.Instance.PlaySfx(AudioManager.SfxCode.miss);
                 DataRythmeScore.Instance.miss += 1;
                 perfectCombo = false;

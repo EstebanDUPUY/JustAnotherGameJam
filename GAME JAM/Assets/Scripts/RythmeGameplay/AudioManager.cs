@@ -97,7 +97,7 @@ public class AudioManager : MonoBehaviour
                 break;
             case DataSongs.SongName.Level2:
                 bpm = 120;
-                extraSpeedNote = 10;
+                extraSpeedNote = 0;
                 sources[0].clip = clipLevel2;
                 break;
             default:
