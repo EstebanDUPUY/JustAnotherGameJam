@@ -59,8 +59,8 @@ public class AudioManager : MonoBehaviour
         clipNoel = Resources.Load<AudioClip>("Musics/Noel_S7_80bpm");
         clipEpic = Resources.Load<AudioClip>("Musics/Epic_120");
         sfxMissNote = Resources.Load<AudioClip>("SFX/classic_hurt");
-        sfxBadNote = Resources.Load<AudioClip>("SFX/thump_sjDMeer");
-        sfxPerfectNote = Resources.Load<AudioClip>("SFX/Perfect");
+        sfxBadNote = Resources.Load<AudioClip>("Musics/Esteban/crdn_upgrkick_012-85590");
+        sfxPerfectNote = Resources.Load<AudioClip>("Musics/Esteban/arrow-impact-87260");
 
         sources[0].clip = clipEpic;
         sources[1].clip = sfxMissNote;
