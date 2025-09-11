@@ -19,7 +19,6 @@ public class ScoreResult : MonoBehaviour
                         "\n\nBad : " + DataRythmeScore.Instance.bad.ToString() +
                         "\n\nMiss : " + DataRythmeScore.Instance.miss.ToString();
 
-        DataRythmeScore.Instance.ResetScore();
         textMP.text = result;
     }
 }

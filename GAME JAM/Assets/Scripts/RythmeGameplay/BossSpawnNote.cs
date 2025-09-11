@@ -18,7 +18,6 @@ public class BossSpawnNote : MonoBehaviour
     void Start()
     {
         StartCoroutine(SpawnNoteInRythm());
-        StartCoroutine(WaitCooldown());
     }
 
     void OnEnable()
@@ -84,7 +83,7 @@ public class BossSpawnNote : MonoBehaviour
 
     IEnumerator WaitCooldown()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(5f);
         endMusic?.Invoke();
     }
 

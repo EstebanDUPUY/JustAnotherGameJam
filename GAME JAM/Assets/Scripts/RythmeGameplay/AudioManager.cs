@@ -18,7 +18,6 @@ public class AudioManager : MonoBehaviour
     }
 
     private AudioSource[] sources;
-    //rivate AudioSource music;
 
     private AudioClip clipHerbal;
     private AudioClip clipNoel;
@@ -94,6 +93,12 @@ public class AudioManager : MonoBehaviour
             sources[1].clip = sfxPerfectNote;
 
         sources[1].Play();
+    }
+
+    public void StopAllSongs()
+    {
+        sources[0].Stop();
+        sources[1].Stop();
     }
 
     public void PlaySong()

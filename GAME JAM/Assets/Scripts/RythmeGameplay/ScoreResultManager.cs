@@ -6,6 +6,7 @@ public class ScoreResultManager : MonoBehaviour
     private GameObject resultScreen;
     private GameObject judgeScreen;
     private GameObject gameUIScreen;
+    private GameObject allButtons;
 
     void Awake()
     {
@@ -23,6 +24,7 @@ public class ScoreResultManager : MonoBehaviour
         resultScreen = transform.Find("ScoreResult").gameObject;
         judgeScreen = transform.Find("JudgeText").gameObject;
         gameUIScreen = transform.Find("OnGameUI").gameObject;
+        allButtons = transform.Find("AllButtons").gameObject;
     }
 
     private void OnEnable()
@@ -39,6 +41,7 @@ public class ScoreResultManager : MonoBehaviour
     {
         resultScreen.SetActive(true);
         judgeScreen.SetActive(true);
+        allButtons.SetActive(true);
         gameUIScreen.SetActive(false);
         resultScreen.GetComponent<ScoreResult>().SetResult();
         judgeScreen.GetComponent<JudgeTextUI>().SetJudgement();
