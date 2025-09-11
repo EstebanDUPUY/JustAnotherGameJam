@@ -24,6 +24,7 @@ public class AudioManager : MonoBehaviour
     private AudioClip clipEpic;
     private AudioClip sfxMissNote;
     private AudioClip sfxBadNote;
+    private AudioClip sfxGoodNote;
     private AudioClip sfxPerfectNote;
 
     public static event Action<float> FindBPM;
@@ -59,8 +60,9 @@ public class AudioManager : MonoBehaviour
         clipNoel = Resources.Load<AudioClip>("Musics/Noel_S7_80bpm");
         clipEpic = Resources.Load<AudioClip>("Musics/Epic_120");
         sfxMissNote = Resources.Load<AudioClip>("SFX/classic_hurt");
-        sfxBadNote = Resources.Load<AudioClip>("Musics/Esteban/crdn_upgrkick_012-85590");
-        sfxPerfectNote = Resources.Load<AudioClip>("Musics/Esteban/arrow-impact-87260");
+        sfxBadNote = Resources.Load<AudioClip>("Musics/Esteban/clean-whoosh-382726");
+        sfxGoodNote = Resources.Load<AudioClip>("Musics/Esteban/simple-whoosh-382724");
+        sfxPerfectNote = Resources.Load<AudioClip>("Musics/Esteban/whoosh-effect-382717");
 
         sources[0].clip = clipEpic;
 
@@ -93,8 +95,10 @@ public class AudioManager : MonoBehaviour
     {
         if (_code == SfxCode.miss)
             sources[1].clip = sfxMissNote;
-        if (_code == SfxCode.bad || _code == SfxCode.good)
+        if (_code == SfxCode.bad)
             sources[1].clip = sfxBadNote;
+        if (_code == SfxCode.good)
+            sources[1].clip = sfxGoodNote;
         if (_code == SfxCode.perfect)
             sources[1].clip = sfxPerfectNote;
 
