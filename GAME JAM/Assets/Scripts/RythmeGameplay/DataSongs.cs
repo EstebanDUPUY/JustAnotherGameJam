@@ -10,15 +10,4 @@ public class DataSongs : MonoBehaviour
         Level2,
         Level3
     }
-
-    public Dictionary<SongName, float> SongDictionary;
-
-    void Awake()
-    {
-        SongDictionary = new Dictionary<SongName, float>
-        {
-            {SongName.Level1, 80},
-            {SongName.Level2, 120}
-        };
-    }
 }

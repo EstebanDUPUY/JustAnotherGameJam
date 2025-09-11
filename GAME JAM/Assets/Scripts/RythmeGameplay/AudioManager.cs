@@ -30,10 +30,7 @@ public class AudioManager : MonoBehaviour
     public float bpm;
     private float saveBpm;
 
-
-    public int sampleSize = 1024; // FFT size
-    public float threshold = 1.5f; // seuil pour considérer un onset
-    public int smoothCount = 5; // nombre de BPM moyens à lisser
+    private DataSongs.SongName currentSong;
 
     void Awake()
     {
@@ -62,7 +59,8 @@ public class AudioManager : MonoBehaviour
         sfxBadNote = Resources.Load<AudioClip>("SFX/thump_sjDMeer");
         sfxPerfectNote = Resources.Load<AudioClip>("SFX/Perfect");
 
-        sources[0].clip = clipEpic;
+        if (!sources[0].clip)
+            sources[0].clip = clipEpic;
 
         FindBPM?.Invoke(bpm);
     }
@@ -77,16 +75,33 @@ public class AudioManager : MonoBehaviour
         TriggerMusic.MusicOn -= PlaySong;
     }
 
-
-
-    public AudioSource GetAudio()
+    public void SetCurrentSong(DataSongs.SongName _name)
     {
-        return sources[0];
+        currentSong = _name;
+        SetSongSystem();
     }
+
 
     public void SetSongSystem()
     {
-        
+        switch (currentSong)
+        {
+            case DataSongs.SongName.Level1:
+                bpm = 80;
+                sources[0].clip = clipNoel;
+                break;
+            case DataSongs.SongName.Level2:
+                bpm = 120;
+                sources[0].clip = clipEpic;
+                break;
+            default:
+                break;
+        }
+    }
+    
+    public AudioSource GetAudio()
+    {
+        return sources[0];
     }
 
     public void PlaySfx(SfxCode _code)
