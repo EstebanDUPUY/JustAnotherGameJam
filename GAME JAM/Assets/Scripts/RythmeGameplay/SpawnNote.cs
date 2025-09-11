@@ -4,7 +4,7 @@ public class SpawnNote : MonoBehaviour
 {
     [SerializeField] private int id; // 0 or 1 to match BossSpawnNote
 
-    public GameObject SaveLane; // optional, can leave null
+    private GameObject SaveLane; // optional, can leave null
     private Transform leftButton;
     private Transform rightButton;
 
