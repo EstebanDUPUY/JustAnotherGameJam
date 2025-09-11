@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WaterFallMiddle
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -4349865214590626401, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: 456729387, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: 426475567, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: 1481219064, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: 1709376902, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: -1766774176, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: 1431663774, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  - {fileID: 1215541356, guid: 97c35a6227018fe479583658febc2aab, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
