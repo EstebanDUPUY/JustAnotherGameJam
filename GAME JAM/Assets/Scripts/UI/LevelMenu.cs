@@ -24,7 +24,22 @@ public class LevelMenu : MonoBehaviour
     */
     public void OpenLevel(int levelId)
     {
-        string levelName = "Level" + levelId;
+        string levelName;
+
+        switch (levelId)
+        {
+            case 1:
+                AudioManager.Instance.SetCurrentSong(DataSongs.SongName.Level1);
+                break;
+            case 2:
+                AudioManager.Instance.SetCurrentSong(DataSongs.SongName.Level2);
+                break;
+            default:
+                break;
+        }
+
+
+        levelName = "Level" + levelId;
         SceneManager.LoadScene("LevelRythm"); 
     }
 }

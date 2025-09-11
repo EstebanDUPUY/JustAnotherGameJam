@@ -10,6 +10,8 @@ TagManager:
   - ZoneSwitchLane
   - TriggerMusic
   - Button
+  - FxTemporaire
+  - KeepObject
   layers:
   - Default
   - TransparentFX
