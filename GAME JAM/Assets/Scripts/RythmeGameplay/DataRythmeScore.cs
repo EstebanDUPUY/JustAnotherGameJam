@@ -44,14 +44,6 @@ public class DataRythmeScore : MonoBehaviour
         float judge = scorePlayer / totalMaxScore * 100;
 
 
-
-
-        Debug.Log("Total = " + total);
-        Debug.Log("TotalMax = " + totalMaxScore);
-        Debug.Log("ScorePlayer = " + scorePlayer);
-        Debug.Log("judge = " + judge);
-
-
         if (judge == 100)
         {
             return "FULL COMBO!!\n AMAZING!!";

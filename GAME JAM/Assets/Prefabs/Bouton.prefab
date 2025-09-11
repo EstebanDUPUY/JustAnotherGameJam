@@ -86,7 +86,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -5177388603050735206, guid: 8884154dfe85442a3a3578be807dbcdf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -187,6 +187,7 @@ MonoBehaviour:
   missValue: 0
   id: 1
   childZone: []
+  perfectCombo: 1
 --- !u!1 &1059113714732580897
 GameObject:
   m_ObjectHideFlags: 0

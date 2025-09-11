@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!156049354 &36955515
 Grid:
   m_ObjectHideFlags: 0
@@ -215,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 8838719271475474347, guid: 588cb9be25c1d084c8efa6fd72c600b9, type: 3}
       propertyPath: m_Name
       value: OctopusIdle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838719271475474347, guid: 588cb9be25c1d084c8efa6fd72c600b9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1345,7 +1349,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1385,6 +1389,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossSpawnNote
   isLevelPlaying: 0
+--- !u!1001 &930497124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 104035040162655517, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_Name
+      value: Grid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -19.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388917655987017, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a46951c818b32b4287168e7555f2f17, type: 3}
 --- !u!1 &1017453306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1653,10 @@ PrefabInstance:
     - target: {fileID: 7619509609693114348, guid: 37a6f898284e00c49b44a2fa237c057d, type: 3}
       propertyPath: m_Name
       value: Fish1Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619509609693114348, guid: 37a6f898284e00c49b44a2fa237c057d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8939464649197560161, guid: 37a6f898284e00c49b44a2fa237c057d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1974,6 +2039,10 @@ PrefabInstance:
     - target: {fileID: 7105134109782427730, guid: 89c07bdfd21a84b4c9416a0d561fb0c8, type: 3}
       propertyPath: m_Name
       value: SeahorseIdle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105134109782427730, guid: 89c07bdfd21a84b4c9416a0d561fb0c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2625,6 +2694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish2Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 1955512640190080135, guid: a94d9797d442d6f4da97b1051e5697df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6659668251309895161, guid: a94d9797d442d6f4da97b1051e5697df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34
@@ -2681,6 +2754,10 @@ PrefabInstance:
     - target: {fileID: 3949068572335994370, guid: 75f599d17e9176748bce5b9f14efc59d, type: 3}
       propertyPath: m_Name
       value: SnakeIdle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949068572335994370, guid: 75f599d17e9176748bce5b9f14efc59d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6400894722984061079, guid: 75f599d17e9176748bce5b9f14efc59d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3281,7 +3358,7 @@ Tilemap:
       - {fileID: 9648326, guid: 34066040c08e1a545ad29b48c8ce5106, type: 3}
       - {fileID: 307491260, guid: 34066040c08e1a545ad29b48c8ce5106, type: 3}
       - {fileID: 597935750, guid: 34066040c08e1a545ad29b48c8ce5106, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -3623,6 +3700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bpm: 120
   extraSpeedNote: 0
+  timerSong: 0
 --- !u!1 &3125589890770603654
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,3 +4124,4 @@ SceneRoots:
   - {fileID: 82010912}
   - {fileID: 1345644552}
   - {fileID: 1922609951}
+  - {fileID: 930497124}

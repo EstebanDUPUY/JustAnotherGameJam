@@ -1,10 +1,7 @@
-using Unity.Multiplayer.Center.Common.Analytics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 using System;
-using System.Data.Common;
-using Unity.VisualScripting;
 using System.Collections.Generic;
 
 public class ButtonManager : MonoBehaviour
@@ -82,22 +79,18 @@ public class ButtonManager : MonoBehaviour
     public void OnNote(InputAction.CallbackContext context)
     {
         if (tempoNoteObject == null)
+        {
+            //SignalText?.Invoke("Sois patient stp");
             return;
+        }
 
 
         if (context.interaction is PressInteraction && context.phase == InputActionPhase.Started)
-        {
-            GameObject newVFX = Instantiate(vfx, transform.position, Quaternion.identity);
-            Destroy(newVFX, 1f);
-
-            if (tempoNoteObject == null)
             {
-                SignalText?.Invoke("Sois patient stp");
-                return;
+                GameObject newVFX = Instantiate(vfx, transform.position, Quaternion.identity);
+                Destroy(newVFX, 1f);
+                CheckIfInZone();
             }
-
-            CheckIfInZone();
-        }
 
     }
 

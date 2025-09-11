@@ -1,7 +1,5 @@
 using UnityEngine;
 using System;
-using System.Collections.Generic;
-using System.Threading;
 
 public class AudioManager : MonoBehaviour
 {
@@ -32,6 +30,7 @@ public class AudioManager : MonoBehaviour
     private float saveBpm;
 
     [HideInInspector] public float extraSpeedNote = 0;
+    [HideInInspector] public float timerSong = 0;
 
     private DataSongs.SongName currentSong;
 
@@ -93,11 +92,13 @@ public class AudioManager : MonoBehaviour
             case DataSongs.SongName.Level1:
                 bpm = 99;
                 extraSpeedNote = 0;
+                timerSong = clipLevel1.length;
                 sources[0].clip = clipLevel1;
                 break;
             case DataSongs.SongName.Level2:
                 bpm = 120;
                 extraSpeedNote = 0;
+                timerSong = clipLevel2.length;
                 sources[0].clip = clipLevel2;
                 break;
             default:

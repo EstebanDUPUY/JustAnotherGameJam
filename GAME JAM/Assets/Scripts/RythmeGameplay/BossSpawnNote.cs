@@ -1,8 +1,6 @@
 using UnityEngine;
 using System;
 using System.Collections;
-using UnityEngine.Rendering.Universal;
-using Unity.Mathematics;
 
 public class BossSpawnNote : MonoBehaviour
 {
@@ -22,6 +20,7 @@ public class BossSpawnNote : MonoBehaviour
     void Start()
     {
         StartCoroutine(SpawnNoteInRythm());
+        StartCoroutine(WaitForSongToEnd());
         //StartCoroutine(WaitCooldown());
 
         simpleNote = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
@@ -53,13 +52,22 @@ public class BossSpawnNote : MonoBehaviour
 
     void Update()
     {
-        if (!AudioManager.Instance.GetAudio().isPlaying && isLevelPlaying && ready)
+        /*if (!AudioManager.Instance.GetAudio().isPlaying && isLevelPlaying && ready)
         {
             ready = false;
             isLevelPlaying = false;
             StopAllCoroutines();
             StartCoroutine(WaitCooldown());
-        }
+        }*/
+    }
+
+    IEnumerator WaitForSongToEnd()
+    {
+        yield return new WaitForSeconds(AudioManager.Instance.timerSong);
+        ready = false;
+        isLevelPlaying = false;
+        StopCoroutine(SpawnNoteInRythm());
+        StartCoroutine(WaitCooldown());
     }
 
 
@@ -85,7 +93,7 @@ public class BossSpawnNote : MonoBehaviour
         return UnityEngine.Random.Range(0, 2);
     }
 
-    private bool isDouble()
+    private bool IsDouble()
     {
         if (UnityEngine.Random.Range(0, 4) == 3)
         {
@@ -100,13 +108,14 @@ public class BossSpawnNote : MonoBehaviour
         int laneId = 0;
         int laneIdTempo = 0;
         GameObject noteChosen = null;
+        
         while (ready)
         {
             laneId = ChooseLane();
-            
+
             noteChosen = ChooseNote();
 
-            if (isDouble())
+            if (IsDouble())
             {
                 noteChosen = simpleNote;
 

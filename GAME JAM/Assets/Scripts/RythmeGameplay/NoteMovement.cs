@@ -1,8 +1,5 @@
-using System;
 using UnityEngine;
-using System.Collections;
-using System.Data.Common;
-using UnityEngine.Rendering.Universal;
+
 
 public class NoteMovement : MonoBehaviour
 {
