@@ -52,6 +52,6 @@ public class NoteMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        transform.position -= new Vector3(10 * Time.fixedDeltaTime, 0f, 0f);
+        transform.position -= new Vector3((10 + AudioManager.Instance.extraSpeedNote) * Time.fixedDeltaTime, 0f, 0f);
     }
 }
