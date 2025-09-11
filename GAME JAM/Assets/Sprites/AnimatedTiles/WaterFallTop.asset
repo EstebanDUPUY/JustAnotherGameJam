@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WaterFallTop
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -9207121500898520863, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: 317256148, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: -1128401862, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: 1881320070, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: 741531092, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: 570588164, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: 1484447420, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  - {fileID: -1602395979, guid: 78ca40a72da8d7d47a790f66cc2ddb7f, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
