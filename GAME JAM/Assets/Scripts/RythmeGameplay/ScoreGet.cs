@@ -17,7 +17,7 @@ public class ScoreGet : MonoBehaviour
         ButtonManager.AddScore += UpdateScore;
     }
 
-      private void OnDisable()
+    private void OnDisable()
     {
         ButtonManager.AddScore -= UpdateScore;
     }

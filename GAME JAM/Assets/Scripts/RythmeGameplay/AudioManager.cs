@@ -9,13 +9,22 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager Instance;
 
+    public enum SfxCode
+    {
+        miss,
+        bad,
+        good,
+        perfect
+    }
+
     private AudioSource[] sources;
-    //rivate AudioSource music;
 
     private AudioClip clipHerbal;
     private AudioClip clipNoel;
     private AudioClip clipEpic;
     private AudioClip sfxMissNote;
+    private AudioClip sfxBadNote;
+    private AudioClip sfxPerfectNote;
 
     public static event Action<float> FindBPM;
     public float bpm;
@@ -50,6 +59,8 @@ public class AudioManager : MonoBehaviour
         clipNoel = Resources.Load<AudioClip>("Musics/Noel_S7_80bpm");
         clipEpic = Resources.Load<AudioClip>("Musics/Epic_120");
         sfxMissNote = Resources.Load<AudioClip>("SFX/classic_hurt");
+        sfxBadNote = Resources.Load<AudioClip>("SFX/thump_sjDMeer");
+        sfxPerfectNote = Resources.Load<AudioClip>("SFX/Perfect");
 
         sources[0].clip = clipEpic;
         sources[1].clip = sfxMissNote;
@@ -67,10 +78,27 @@ public class AudioManager : MonoBehaviour
         TriggerMusic.MusicOn -= PlaySong;
     }
 
-    public void PlaySfx()
+    public AudioSource GetAudio()
     {
+        return sources[0];
+    }
+
+    public void PlaySfx(SfxCode _code)
+    {
+        if (_code == SfxCode.miss)
+            sources[1].clip = sfxMissNote;
+        if (_code == SfxCode.bad || _code == SfxCode.good)
+            sources[1].clip = sfxBadNote;
+        if (_code == SfxCode.perfect)
+            sources[1].clip = sfxPerfectNote;
+
         sources[1].Play();
-        Debug.Log("I'm playing song");
+    }
+
+    public void StopAllSongs()
+    {
+        sources[0].Stop();
+        sources[1].Stop();
     }
 
     public void PlaySong()
