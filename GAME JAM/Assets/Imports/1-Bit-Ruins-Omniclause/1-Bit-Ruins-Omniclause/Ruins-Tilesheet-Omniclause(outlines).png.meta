@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 9746619a56e6c7c4ab4d4b92b6a00c83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2915214068494565376
+    second: Ruins-Tilesheet-Omniclause(outlines)_0
+  - first:
+      213: -8643250705835235255
+    second: Ruins-Tilesheet-Omniclause(outlines)_1
+  - first:
+      213: 5245414278927264603
+    second: Ruins-Tilesheet-Omniclause(outlines)_2
+  - first:
+      213: 2388165264741714264
+    second: Ruins-Tilesheet-Omniclause(outlines)_3
+  - first:
+      213: 7859481225281056135
+    second: Ruins-Tilesheet-Omniclause(outlines)_4
+  - first:
+      213: 2796413141820558603
+    second: Ruins-Tilesheet-Omniclause(outlines)_5
+  - first:
+      213: -5447757628013661408
+    second: Ruins-Tilesheet-Omniclause(outlines)_6
+  - first:
+      213: 7969233434581909833
+    second: Ruins-Tilesheet-Omniclause(outlines)_7
+  - first:
+      213: 1028642054781126034
+    second: Ruins-Tilesheet-Omniclause(outlines)_8
+  - first:
+      213: -11527083896704465
+    second: Ruins-Tilesheet-Omniclause(outlines)_9
+  - first:
+      213: 711947456062811379
+    second: Ruins-Tilesheet-Omniclause(outlines)_10
+  - first:
+      213: 7463354756807818673
+    second: Ruins-Tilesheet-Omniclause(outlines)_11
+  - first:
+      213: 6821042167547414114
+    second: Ruins-Tilesheet-Omniclause(outlines)_12
+  - first:
+      213: 8863799696869907015
+    second: Ruins-Tilesheet-Omniclause(outlines)_13
+  - first:
+      213: 2993751802085852012
+    second: Ruins-Tilesheet-Omniclause(outlines)_14
+  - first:
+      213: -560439500262332665
+    second: Ruins-Tilesheet-Omniclause(outlines)_15
+  - first:
+      213: -7484401658416131661
+    second: Ruins-Tilesheet-Omniclause(outlines)_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 95
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000092b00441b87d0800000000000000
+      internalID: -2915214068494565376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 101
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948eb06e6410d0880800000000000000
+      internalID: -8643250705835235255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 95
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ba83bce747bc840800000000000000
+      internalID: 5245414278927264603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 95
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8594bddb7a7742120800000000000000
+      internalID: 2388165264741714264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78daab7788c721d60800000000000000
+      internalID: 7859481225281056135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 31
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dc27bbfeadec620800000000000000
+      internalID: 2796413141820558603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 69
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02332dffc4da564b0800000000000000
+      internalID: -5447757628013661408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 66
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941cb600697689e60800000000000000
+      internalID: 7969233434581909833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 72
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295c144bf78764e00800000000000000
+      internalID: 1028642054781126034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 68
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f227a03ad2c07dff0800000000000000
+      internalID: -11527083896704465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 72
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fced51707851e900800000000000000
+      internalID: 711947456062811379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 63
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd7048db99239760800000000000000
+      internalID: 7463354756807818673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 63
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266cf9246b539ae50800000000000000
+      internalID: 6821042167547414114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 63
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a5524acda820b70800000000000000
+      internalID: 8863799696869907015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 31
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6343050761fb8920800000000000000
+      internalID: 2993751802085852012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 31
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70724cc6e3be838f0800000000000000
+      internalID: -560439500262332665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruins-Tilesheet-Omniclause(outlines)_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 34
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b113c18850122890800000000000000
+      internalID: -7484401658416131661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ruins-Tilesheet-Omniclause(outlines)_0: -2915214068494565376
+      Ruins-Tilesheet-Omniclause(outlines)_1: -8643250705835235255
+      Ruins-Tilesheet-Omniclause(outlines)_10: 711947456062811379
+      Ruins-Tilesheet-Omniclause(outlines)_11: 7463354756807818673
+      Ruins-Tilesheet-Omniclause(outlines)_12: 6821042167547414114
+      Ruins-Tilesheet-Omniclause(outlines)_13: 8863799696869907015
+      Ruins-Tilesheet-Omniclause(outlines)_14: 2993751802085852012
+      Ruins-Tilesheet-Omniclause(outlines)_15: -560439500262332665
+      Ruins-Tilesheet-Omniclause(outlines)_16: -7484401658416131661
+      Ruins-Tilesheet-Omniclause(outlines)_2: 5245414278927264603
+      Ruins-Tilesheet-Omniclause(outlines)_3: 2388165264741714264
+      Ruins-Tilesheet-Omniclause(outlines)_4: 7859481225281056135
+      Ruins-Tilesheet-Omniclause(outlines)_5: 2796413141820558603
+      Ruins-Tilesheet-Omniclause(outlines)_6: -5447757628013661408
+      Ruins-Tilesheet-Omniclause(outlines)_7: 7969233434581909833
+      Ruins-Tilesheet-Omniclause(outlines)_8: 1028642054781126034
+      Ruins-Tilesheet-Omniclause(outlines)_9: -11527083896704465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
