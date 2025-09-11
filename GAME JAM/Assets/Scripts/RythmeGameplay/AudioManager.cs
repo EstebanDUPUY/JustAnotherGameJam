@@ -63,7 +63,6 @@ public class AudioManager : MonoBehaviour
         sfxPerfectNote = Resources.Load<AudioClip>("SFX/Perfect");
 
         sources[0].clip = clipEpic;
-        sources[1].clip = sfxMissNote;
 
         FindBPM?.Invoke(bpm);
     }
@@ -78,9 +77,16 @@ public class AudioManager : MonoBehaviour
         TriggerMusic.MusicOn -= PlaySong;
     }
 
+
+
     public AudioSource GetAudio()
     {
         return sources[0];
+    }
+
+    public void SetSongSystem()
+    {
+        
     }
 
     public void PlaySfx(SfxCode _code)
