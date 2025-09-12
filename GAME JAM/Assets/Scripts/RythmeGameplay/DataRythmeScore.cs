@@ -48,13 +48,21 @@ public class DataRythmeScore : MonoBehaviour
         {
             return "FULL COMBO!!\n AMAZING!!";
         }
-        else if (judge < 100 && judge >= 70)
+        else if (judge < 100 && judge >= 95)
         {
-            return "GREAT JOB!";
+            return "So close to Full Combo, but so far...";
         }
-        else if (judge < 70 && judge >= 50)
+        else if (judge < 95 && judge >= 70)
+        {
+            return "Great Job!";
+        }
+        else if (judge < 70 && judge >= 60)
         {
             return "I've seen better...";
+        }
+        else if (judge < 60 && judge >= 50)
+        {
+            return "Did you even try?";
         }
         else
         {
