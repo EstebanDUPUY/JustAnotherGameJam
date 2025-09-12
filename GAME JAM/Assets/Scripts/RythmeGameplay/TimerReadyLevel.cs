@@ -10,12 +10,6 @@ public class TimerReadyLevel : MonoBehaviour
     {
         StartCoroutine(WaitForLevel());
     }
-
-    public void Resume()
-    {
-         StartCoroutine(WaitForLevel());
-    }
-
     IEnumerator WaitForLevel()
     {
         UpdateTimerLevel?.Invoke("3");

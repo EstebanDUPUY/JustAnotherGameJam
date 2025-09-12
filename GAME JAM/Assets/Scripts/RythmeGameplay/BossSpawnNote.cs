@@ -54,18 +54,6 @@ public class BossSpawnNote : MonoBehaviour
     {
         //bpm = _bpm;
     }
-
-    void Update()
-    {
-        /*if (!AudioManager.Instance.GetAudio().isPlaying && isLevelPlaying && ready)
-        {
-            ready = false;
-            isLevelPlaying = false;
-            StopAllCoroutines();
-            StartCoroutine(WaitCooldown());
-        }*/
-    }
-
     IEnumerator WaitForSongToEnd()
     {
         yield return new WaitForSeconds(AudioManager.Instance.timerSong);
@@ -142,6 +130,7 @@ public class BossSpawnNote : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         endMusic?.Invoke();
+        AudioManager.Instance.PlaySfx(AudioManager.SfxCode.score);
     }
 
 }

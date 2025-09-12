@@ -12,7 +12,9 @@ public class ScoreResult : MonoBehaviour
 
     public void SetResult()
     {
-        string result = "Perfect : " + DataRythmeScore.Instance.perfect.ToString() +
+        DataRythmeScore.Instance.CalculateScorePlayer();
+        string result = "SCORE : " + DataRythmeScore.Instance.scorePlayerValue.ToString() +
+                        "\n\nPerfect : " + DataRythmeScore.Instance.perfect.ToString() +
                         "\n\nGood : " + DataRythmeScore.Instance.good.ToString() +
                         "\n\nBad : " + DataRythmeScore.Instance.bad.ToString() +
                         "\n\nMiss : " + DataRythmeScore.Instance.miss.ToString();

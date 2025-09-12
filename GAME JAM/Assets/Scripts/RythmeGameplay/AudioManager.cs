@@ -14,7 +14,8 @@ public class AudioManager : MonoBehaviour
         good,
         perfect,
         hover,
-        click
+        click,
+        score
     }
 
     private AudioSource[] sources;
@@ -30,6 +31,7 @@ public class AudioManager : MonoBehaviour
     private AudioClip sfxPerfectNote;
     private AudioClip sfxBubbleHover;
     private AudioClip sfxBubbleClick;
+    private AudioClip sfxScoreEnd;
 
     public static event Action<float> FindBPM;
     public float bpm;
@@ -71,6 +73,7 @@ public class AudioManager : MonoBehaviour
         sfxPerfectNote = Resources.Load<AudioClip>("Musics/Esteban/whoosh-effect-382717");
         sfxBubbleHover = Resources.Load<AudioClip>("SFX/selected_bubble");
         sfxBubbleClick = Resources.Load<AudioClip>("SFX/clicked_bubble");
+        sfxScoreEnd = Resources.Load<AudioClip>("Musics/FinalMusic/endscore");
 
         if (!sources[0].clip)
             sources[0].clip = clipLevel2;
@@ -150,7 +153,11 @@ public class AudioManager : MonoBehaviour
             sources[1].PlayOneShot(sfxBubbleClick);
             return;
         }
-
+        if (_code == SfxCode.score)
+        {
+            sources[1].PlayOneShot(sfxScoreEnd);
+            return;
+        }
 
         sources[1].Play();
     }
