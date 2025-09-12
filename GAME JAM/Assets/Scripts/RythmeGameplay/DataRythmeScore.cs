@@ -9,6 +9,8 @@ public class DataRythmeScore : MonoBehaviour
     public int good;
     public int perfect;
 
+    public int scorePlayerValue = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,11 +37,16 @@ public class DataRythmeScore : MonoBehaviour
         return miss + bad + good + perfect;
     }
 
+    public void CalculateScorePlayer()
+    {
+        scorePlayerValue = bad * 10 + good * 50 + perfect * 100;
+    }
+
     public string GetJudgement()
     {
         float total = GetTotalNote();
         float totalMaxScore = total * 3;
-        float scorePlayer = bad * 1 + good * 2 + perfect * 3;
+        int scorePlayer = bad * 1 + good * 2 + perfect * 3;
 
         float judge = scorePlayer / totalMaxScore * 100;
 

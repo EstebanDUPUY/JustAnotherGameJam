@@ -9,6 +9,7 @@ public class ButtonGameUIManager : MonoBehaviour
         DataRythmeScore.Instance.ResetScore();
         SceneManager.LoadScene("0-MainMenu");
         AudioManager.Instance.StopSong();
+        Time.timeScale = 1;
         AudioManager.Instance.PlayTitleSong(true);
     }
 
@@ -17,6 +18,7 @@ public class ButtonGameUIManager : MonoBehaviour
         AudioManager.Instance.StopAllSongs();
         DataRythmeScore.Instance.ResetScore();
         AudioManager.Instance.StopSong();
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
