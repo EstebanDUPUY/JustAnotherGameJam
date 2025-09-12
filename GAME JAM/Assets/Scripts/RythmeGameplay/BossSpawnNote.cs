@@ -19,10 +19,6 @@ public class BossSpawnNote : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SpawnNoteInRythm());
-        StartCoroutine(WaitForSongToEnd());
-        //StartCoroutine(WaitCooldown());
-
         simpleNote = Resources.Load<GameObject>("Prefabs/Note/NoteSimple");
         trickNote = Resources.Load<GameObject>("Prefabs/Note/NoteTrick");
     }
@@ -31,13 +27,22 @@ public class BossSpawnNote : MonoBehaviour
     {
         AudioManager.FindBPM += ChangeBPMOnRunTime;
         TriggerMusic.MusicOn += PlayLevel;
+        TimerReadyLevel.StartLevel += StartLevel;
     }
 
     void OnDisable()
     {
         AudioManager.FindBPM -= ChangeBPMOnRunTime;
         TriggerMusic.MusicOn -= PlayLevel;
+        TimerReadyLevel.StartLevel -= StartLevel;
 
+
+    }
+
+    public void StartLevel()
+    {
+        StartCoroutine(SpawnNoteInRythm());
+        StartCoroutine(WaitForSongToEnd());
     }
 
     private void PlayLevel()
